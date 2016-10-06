@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]> 
+	<html class="ie lt-ie9 lt-ie8 lt-ie7">
+	<![endif]-->
+	<!--[if IE 7]>    
+	<html class="ie lt-ie9 lt-ie8">
+	<![endif]-->
+	<!--[if IE 8]>    
+	<html class="ie lt-ie9">
+	<![endif]-->
+	<!--[if gt IE 8]> 
+	<html>
+	<![endif]-->
+	<!--[if !IE]><!-->
+<html>
+   <!-- <![endif]-->
+   <head>
+		<title>MELIS Email Management</title>
+		<!-- Meta -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		<!-- 
+		**********************************************************
+		In development, use the LESS files and the less.js compiler
+		instead of the minified CSS loaded by default.
+		**********************************************************
+		<link rel="stylesheet/less" href="../assets/less/admin/module.admin.page.index.less" />
+		-->
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" href="../assets/components/library/bootstrap/css/bootstrap.min.css" />
+		<![endif]-->
+		<!-- Init CSS Libraries -->
+		<link rel="stylesheet" href="../assets/components/library/jquery-ui/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="../assets/css/admin/module.admin.page.tables.min.css" />
+		<link rel="stylesheet" href="../assets/css/admin/module.admin.page.form_elements.min.css" />
+		<link rel="stylesheet" href="../assets/css/admin/module.admin.page.index.min.css" />
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<!-- Init JS Libraries -->
+		<script src="../assets/components/library/jquery/jquery.min.js?v=v1.2.3"></script>
+		<script src="../assets/components/library/jquery/jquery-migrate.min.js?v=v1.2.3"></script>
+		<script src="../assets/components/library/modernizr/modernizr.js?v=v1.2.3"></script>
+		<script src="../assets/components/plugins/less-js/less.min.js?v=v1.2.3"></script>
+		<script src="../assets/components/modules/admin/charts/flot/assets/lib/excanvas.js?v=v1.2.3"></script>
+		<script src="../assets/components/plugins/browser/ie/ie.prototype.polyfill.js?v=v1.2.3"></script>
+		<script src="../assets/components/library/jquery-ui/js/jquery-ui.min.js?v=v1.2.3"></script>
+		<!-- DataTable Plugin -->
+		<link rel="stylesheet" href="css/datatables.min.css" />
+		<link rel="stylesheet" href="css/dataTables.uikit.min.css" />
+		<script src="js/datatables.min.js"></script>
+		<script src="http://cdn.tinymce.com/4/tinymce.min.js"></script>
+		<!-- FancyTree CSS -->
+		<link rel="stylesheet" href="css/ui.fancytree.css"/>
+		<!-- Melis Customized CSS -->
+		<link rel="stylesheet" href="css/a-style.css"/>
+   </head>
+   <body class="">
+      <div class="navbar navbar-fixed-top navbar-primary main" role="navigation">
+         <div class="navbar-header pull-left">
+            <div class="navbar-brand">
+               <div class="pull-left">
+                  <a href="" class="toggle-button toggle-sidebar btn-navbar"><i class="fa fa-bars"></i></a>
+               </div>
+               <a href="index.html?lang=en" class="appbrand innerL">MELIS PLATFORM</a>
+            </div>
+         </div>
+         <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">Email Management</a></li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right hidden-xs">            
+            <li class="dropdown">
+               <a href="" class="dropdown-toggle" data-toggle="dropdown"><img src="../assets/images/lang/en-flat.jpg" /></a>
+               <ul class="dropdown-menu pull-right">
+                  <li class="active"><a href="">English</a></li>
+                  <li><a href="">French</a></li>
+               </ul>
+            </li>
+            <li><a href="" class="menu-icon"><i class="fa fa-sign-out"></i></a></li>
+         </ul>
+      </div>
+      <div id="menu" class="hidden-print hidden-xs">
+         <div class="sidebar sidebar-inverse">
+            <div class="user-profile media innerAll">
+               <a href="" class="pull-left"><img src="../assets/images/people/50/8.jpg" alt="" class="img-circle"><span class="badge badge-primary">2</span></a>
+               <div class="media-body">
+                  <a href="" class="strong">Adrian Demian</a>
+                  <p class="text-success"><i class="fa fa-fw fa-circle"></i> Online</p>
+               </div>
+               <ul>
+                  <li class="active"><a href=""><i class="fa fa-fw fa-user"></i></a></li>
+                  <li><a href=""><i class="fa fa-fw fa-lock"></i></a></li>
+               </ul>   
+            </div>
+            <div class="sidebarMenuWrapper">
+               <ul class="list-unstyled">
+                  <li class="hasSubmenu email active">
+                     <a href="#" data-target="#collapse-email" data-toggle="collapse" class="collapsed">
+                     <i class="fa fa-envelope"></i>
+                     <span>Email</span>
+                     </a>
+                     <ul class="in" id="collapse-email">
+                       <li><a href="a-melis-email-listing.html"><i class="fa fa-plus"></i><span>Email Listing</span></a></li>
+                        <li><a href="a-melis-add-email.html"><i class="fa fa-plus"></i><span>Add New Email</span></a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+<div id="content">
+ <!-- content -->
+ <div class="content-cont" style="padding:0;">
+ 	<!-- tab head -->
+ 	<div class="me-heading bg-white border-bottom">      		
+      		<div class="row">      		
+      			<div class="me-hl col-xs-12 col-md-9">
+      				
+      			</div>	      		
+	      		<div class="me-hr col-xs-12 col-md-3">
+	      			<a class="btn btn-default add-email" title="cancel" style="width:100px;">Cancel</a>
+					<a class="btn btn-success add-email" title="Add New Email"><i class="fa fa-envelope" style="padding-right:10px;"></i>Save product</a>
+	      		</div>		      		
+       		</div>       		
+      	</div>	
+	
+	<div class="tab-content innerAll spacing-x2">
+		
+		<!-- TEXT -->
+		<div id="email-page">
+			<div class="melis-product-heading border-bottom">
+				<h3>Add an Email</h3>
+				
+			</div>
+			<div class="row">
+			
+				<div class="col-xs-12 col-md-2">
+					<!-- product text HEAD  -->
+					<!-- 
+						 [ BUG ] if 2 or more products are open and user clicks on text tab
+						 it will also change the tab of other product since they are using same ID/Class
+						 [ SOLUTION ] prefix the ID/Class in php with productID or PageID to make them unique
+						 and update the href='value' of the <a> tag in 'nav-tabs'
+					 -->
+					 <br>
+					<ul class="nav-tabs product-text-tab">
+						<li class="active">
+							<a class="clearfix" data-toggle="tab" href="#ptext-general" aria-expanded="true">
+								<span>General Properties</span>
+							</a>
+						</li>
+						<li class="">
+							<a class="clearfix" data-toggle="tab" href="#ptext-french" aria-expanded="false">
+								<span>French</span>
+								<i class="fa fa-times"></i>
+							</a>
+						</li>
+						<li class="">
+							<a class="clearfix" data-toggle="tab" href="#ptext-english" aria-expanded="false">
+								<span>English</span>
+								<i class="fa fa-times"></i>
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+				<style>
+				.email-table td {
+					padding: 10px 15px 0 0;
+				}
+				</style>
+				<script>
+				tinymce.init({
+					selector: '.html-editable',
+					height: 300,
+					plugins: [
+					'advlist autolink lists link image charmap print preview anchor',
+					'searchreplace visualblocks code fullscreen',
+					'insertdatetime media table contextmenu paste code'
+					],
+					toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+					content_css: [
+					'//fast.fonts.net/cssapi/e6dc9b99-64fe-4292-ad98-6974f93cd2a2.css',
+					'//www.tinymce.com/css/codepen.min.css'
+					]
+				});
+				</script>
+				<div class="col-xs-12 col-md-7 col-md-offset-1">
+					
+					<!-- product text CONTENT  -->
+					<div class="tab-content">
+						
+						<div id="ptext-general" class="tab-pane active" style="border: 1px solid #eee; padding: 15px;">
+							<h3><i class="fa fa-cogs"></i>&nbsp;General Properties</h3>
+							
+							<hr style="margin: 40px 0; border-width: 5px;" />
+							
+							<form method="POST" name="pageseo" id="email-form-action" action="/MelisCms/PageSeo/saveSeo?idPage=1">
+								<fieldset id="email-fieldset">									
+									<h4>Email Settings</h4>
+									<div class="form-group">
+									<table class="email-table">
+									<tr>
+										<td>
+											<label for="">From Name</label>
+											<input type="text" class="email-fields form-control" name="from-name" id="email-from-name" placeholder="ex. John Doe">
+										</td>
+										<td>
+											<label for="">From Email</label>
+											<input type="text" class="email-fields form-control" name="from-email" id="email-from-email" placeholder="yourname@domain.com">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label for="">Reply To</label>
+											<input type="text" class="email-fields form-control" name="reply-to" id="email-reply-to" placeholder="reply@domain.com">
+										<td>
+										<td></td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<label for="">Tags Accepted</label>
+											<input type="text" class="email-fields form-control tags" name="reply-to" id="email-reply-to" placeholder="Separate options with a comma" class="melis-multi-val-input" data-tags="" value="">
+										<td>
+									</tr>
+									</table>
+									</div>							
+								</fieldset>
+							</form>
+
+						</div>
+						<div id="ptext-french" class="tab-pane" style="border: 1px solid #eee; padding: 15px;">
+							<h3>French</h3>							
+							<hr style="margin: 40px 0; border-width: 5px;" />
+							
+							<form method="POST" name="fr-email-form" id="fr-email-form" action="">
+								<fieldset id="1_idformpageseo">
+									
+									<h4>Email Content</h4>
+									<div class="form-group">
+										<label for="email-subject">Subject</label>
+										<input type="text" class="form-control" name="fr-email-subject" id="fr-email-subject" placeholder="Subject Title">
+									</div>							
+									<div class="form-group">
+										<label for="email-messages">Messages</label>
+										<textarea rows="16" cols="50" class="html-editable" contenteditable="true" spellcheck="true" data-tag-type="html" data-tag-id="fr-email-message" data-id-page="fr-email-message" placeholder=""></textarea>
+									</div>
+									<div class="form-group">
+										<label for="email-messages">Text Version</label>
+										<textarea rows="16" cols="50" style="width:100%; padding:6px 12px;" placeholder=""></textarea>
+									</div>
+									
+									<hr style="margin: 40px 0; border-width: 5px;" />							
+							
+								</fieldset>
+							</form>
+
+
+
+						</div>
+						
+						<div id="ptext-english" class="tab-pane" style="border: 1px solid #eee; padding: 15px;">
+							<h3>English</h3>
+							<hr style="margin: 40px 0; border-width: 5px;" />
+							
+							<form method="POST" name="en-email-form" id="en-email-form" action="">
+								<fieldset id="1_idformpageseo">									
+								
+									<h4>Email Content</h4>
+									<div class="form-group">
+										<label for="email-subject">Subject</label>
+										<input type="text" class="form-control" name="en-email-subject" id="en-email-subject" placeholder="Subject Title">
+									</div>
+							
+									<div class="form-group">
+										<label for="email-messages">Messages</label>
+										<textarea rows="16" cols="50" class="html-editable" contenteditable="true" spellcheck="true" data-tag-type="html" data-tag-id="en-email-message" data-id-page="en-email-message" placeholder=""></textarea>
+									</div>
+									<div class="form-group">
+										<label for="email-messages">Text Version</label>
+										<textarea rows="16" cols="50" style="width:100%; padding:6px 12px;" placeholder=""></textarea>
+									</div>
+									
+									<hr style="margin: 40px 0; border-width: 5px;" />
+								</fieldset>
+							</form>
+							
+						</div>
+					
+					</div>
+					
+				</div>
+			
+			</div>
+			
+			
+			
+			
+		</div>
+		<!-- END TEXT -->
+		
+	</div>	
+ 
+ </div>
+ 
+ 
+</div> 
+	<div class="clearfix"></div>
+      <!-- // Sidebar menu & content wrapper END -->
+   
+      <!-- // Main Container Fluid END -->
+      <!-- Global -->
+      <script>
+         var basePath = '',
+         	commonPath = '../assets/',
+         	rootPath = '../',
+         	DEV = false,
+         	componentsPath = '../assets/components/';
+         
+         var primaryColor = '#cb4040',
+         	dangerColor = '#b55151',
+         	infoColor = '#466baf',
+         	successColor = '#8baf46',
+         	warningColor = '#ab7a4b',
+         	inverseColor = '#45484d';
+         
+         var themerPrimaryColor = primaryColor;
+    </script>	
+	
+	<script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>	
+	<!-- tables -->
+    <script src="../assets/components/modules/admin/tables/classic/assets/js/tables-classic.init.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/modules/admin/forms/elements/fuelux-checkbox/fuelux-checkbox.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-select/assets/lib/js/bootstrap-select.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-select/assets/custom/js/bootstrap-select.init.js?v=v1.2.3"></script>
+				
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-switch/assets/lib/js/bootstrap-switch.js?v=v1.2.3"></script>
+    <script src="../assets/components/modules/admin/forms/elements/bootstrap-switch/assets/custom/js/bootstrap-switch.init.js?v=v1.2.3"></script>
+			
+	<script src="../assets/components/library/bootstrap/js/bootstrap.min.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/plugins/nicescroll/jquery.nicescroll.min.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/plugins/breakpoints/breakpoints.js?v=v1.2.3"></script>
+	<script src="../assets/components/core/js/animations.init.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/widgets/widget-chat/assets/js/widget-chat.js?v=v1.2.3"></script>
+	<script src="../assets/components/plugins/slimscroll/jquery.slimscroll.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-datepicker/assets/lib/js/bootstrap-datepicker.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-datepicker/assets/custom/js/bootstrap-datepicker.init.js?v=v1.2.3"></script>	
+	<!-- Widget Scrollable -->
+	<script src="../assets/components/modules/admin/widgets/widget-scrollable/assets/js/widget-scrollable.init.js?v=v1.2.3"></script>
+	<!-- Holder -->
+	<script src="../assets/components/plugins/holder/holder.js?v=v1.2.3"></script>
+	<!-- Side Bar -->
+	<script src="../assets/components/core/js/sidebar.main.init.js?v=v1.2.3"></script>
+	<script src="../assets/components/core/js/sidebar.collapse.init.js?v=v1.2.3"></script>
+	<!-- FancyTree -->
+	<script src="js/jquery.fancytree.js"></script>
+	<!-- Utilities -->
+	<script src="../assets/components/helpers/themer/assets/plugins/cookie/jquery.cookie.js?v=v1.2.3"></script>
+	<script src="../assets/components/core/js/core.init.js?v=v1.2.3"></script>	
+	
+	<script src="js/a-melis.js"></script>
+      
+	  
+   </body>
+</html>

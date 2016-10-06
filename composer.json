@@ -1,0 +1,35 @@
+{
+  "name": "melisplatform/melis-cms-skeleton",
+  "description": "Melis Platform CMS Skeleton",
+  "type": "project",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-pdo_mysql": "*",
+    "zendframework/zendframework": "2.5.3",
+    "rwoverdijk/assetmanager": "^1.7",
+    "melisplatform/zendsearch": "~2.0.0",
+    "melisplatform/melis-core": "dev-master",
+    "melisplatform/melis-calendar": "dev-master",
+    "melisplatform/melis-cms": "dev-master",
+    "melisplatform/melis-cms-page-historic": "dev-master",
+    "melisplatform/melis-cms-prospects": "dev-master",
+    "melisplatform/melis-engine": "dev-master",
+    "melisplatform/melis-front": "dev-master",
+    "melisplatform/melis-installer": "dev-master",
+    "melisplatform/melis-small-business": "dev-master",
+    "melisplatform/melis-zend-server": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/melisplatform/melis-small-business"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/melisplatform/melis-zend-server"
+    }
+  ]
+}

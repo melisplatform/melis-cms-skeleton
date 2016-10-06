@@ -1,0 +1,482 @@
+
+/*
+	fonts
+	
+	font-family: Open Sans, sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+*/ 
+.owl-item{
+	opacity: 0;
+	height: 100px;
+	-webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.owl-item.active{
+	opacity: 1;
+	height: auto;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.btn-primary {
+    background: #932E2A;
+    border-color: #932E2A;
+    color: #fff;
+}
+.btn-primary:hover{
+	background: none;
+    color: #932E2A;
+    border-color: #932E2A;
+}
+.btn-success{
+	background: #72af46;
+	color: #fff;
+}
+.btn-success:hover{
+	background: #72af46;
+	opacity: .8;
+}
+.btn-default, .btn-default:hover{
+    color: #ABABAB;
+    background-color: #ebebeb;
+    border-color: #EBEBEB;
+}
+a, .btn{
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.fa-color-green{
+	 color: #72af46;
+}
+.fa-color-red{
+	color: #cb4040;
+}
+
+input[type="text"] {
+	color: #555;
+}
+
+/* webkit scrollbar fix */
+::-webkit-scrollbar {
+    width: 12px;
+	height: 14px;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-track-piece{
+    background: transparent;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+ 
+::-webkit-scrollbar-thumb {
+    min-height: 48px;
+    background: #932E2A;
+    background-clip: padding-box;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+
+
+/* header */
+.navbar-brand{
+	text-align: center;
+}
+.navbar-brand a img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -1px;
+    margin-right: 10px;
+}
+
+
+/* sidebar */
+.sidebar{
+	position: static;
+	float: left;
+	height: 100%;
+	width: 20%;
+}
+.sidebar .sidebarMenuWrapper > ul{
+    margin-top: 100px;
+}
+.sidebar .sidebarMenuWrapper ul li:first-child{
+    border-top: 1px solid #2c2c2c;
+}
+.sidebar > .sidebarMenuWrapper > ul li a{
+	line-height: 50px;
+}
+.sidebar.sidebar-inverse .sidebarMenuWrapper > ul li > a > i,
+.sidebar.sidebar-inverse .sidebarMenuWrapper > ul li > a {
+    color: #5a5a5a;
+}
+.sidebar.sidebar-inverse .sidebarMenuWrapper > ul li:hover > a{
+	color: #fff;
+	background: #373737;
+}
+.sidebar.sidebar-inverse > .sidebarMenuWrapper > ul li.active.hasSubmenu > a{
+    background-color: #932E2A !important;
+}
+.sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li a.sub{
+	padding-left: 40px;
+}
+.sidebar.sidebar-inverse .sidebarMenuWrapper > ul li > a span.step-number{
+    font-weight: 700;
+    font-size: 22px;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    padding-right: 10px;
+}
+.sidebar.sidebar-inverse .sidebarMenuWrapper > ul li > a > i.fa-color-green{
+    color: #72af46;
+	text-shadow: 0 0 16px #5cc50f;
+}
+
+
+
+
+/* content */
+#content{
+	padding: 80px 30px 30px;
+	float: left;
+	width: 80%;
+	margin-left: 0;
+	height: 100%;
+	overflow: auto;
+}
+.setup-content-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.navbar.main .navbar-right .dropdown:hover ul.dropdown-menu{
+	display: inline-block;
+}
+.navbar.main .navbar-right .dropdown-menu{
+	padding: 0;
+}
+.navbar.main .navbar-right .dropdown-menu > li > a{
+	padding: 6px 20px;
+}
+.navbar.main.navbar-primary .nav>li>a:hover{
+	background: #fff;
+}
+.navbar.main.navbar-primary .nav>li>a:hover i{
+	color: #932E2A;
+}
+.navbar.main li.language-dropdown{
+	
+}
+.setup-content{
+	margin-top: 50px;
+}
+.setup-content form .error{ 
+    color: #cb4040;
+    margin-top: 5px;
+}
+.setup-content input[type='text'],
+.setup-content select{
+    border-radius: 3px;
+	height: 40px;
+	font-size: 14px;
+	border-color: #e5e5e5;
+}
+.setup-content .setup-check-list li i{
+	font-size: 22px;
+    padding: 0px 20px;
+    vertical-align: middle;
+}
+.setup-content .setup-check-list li span{
+	font-size: 16px;
+}
+/* owl slider fix */
+.owl-item.active{
+	background: #fff;
+    z-index: 1;
+}
+.setup-content ul{
+	margin-bottom: 50px;
+}
+.setup-content ul:last-child{
+	margin-bottom: 0;
+}
+.setup-content ul li{
+	padding: 15px 0;
+    border-bottom: 1px solid #eee;
+	position: relative;
+}
+.setup-content ul li:first-child{
+	border-top: 1px solid #eee;
+}
+.setup-error-btn{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    padding: 16px !important;
+    cursor: pointer;
+}
+.setup-error-info{
+	padding: 10px 30px 0;
+    margin-top: 10px;
+    font-size: 14px;
+	display: none;
+}
+.setup-error-info i{
+	padding-right: 10px !important;
+    font-size: 18px !important;
+}
+.setup-content .no-margin-top{
+	margin-top: 0;
+}
+.setup-content .border-bottom{
+	margin-bottom: 20px;
+	border-width: 5px;
+	border-color: #EAEAEA;
+	margin-top: 0;
+}
+.setup-content .no-padding-top{
+	padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE 0 ---- introduction page */
+.steps-container > h2{
+	margin-bottom: 25px;
+}
+.steps-container > p{
+    font-size: 16px;
+    letter-spacing: .3px;
+    word-spacing: 2px;
+}
+.steps-container .row{
+	text-align: center;
+	position: relative;
+}
+.steps-container .steps .number-cont{
+	width: 33.333%;
+	float: left;
+}
+.steps-container .steps .line{
+	height: 2px;
+    width: 60%;
+    background: #932E2A;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    z-index: -1;
+	
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.steps-container .steps .circle-number{
+    font-size: 40px;
+    height: 90px;
+    width: 90px;
+    background: #932E2A;
+    border-radius: 100%;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+}
+.steps-container .steps p{
+    margin-top: 30px;
+    font-family: Open sans;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+.setup-button-cont{
+    margin-top: 80px;
+}
+.setup-button-cont > a{
+	width: 300px;
+    padding: 10px 12px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 600;
+    font-family: Open Sans;
+}
+.setup-button-cont > p{
+	margin-top: 50px;
+}
+.setup-p0,
+.setup-p0 .setup-button-cont{
+	margin-top: 100px;
+}
+
+
+/* PAGE 1.3 ---- Environments */
+.setup-p1-3 .add-environment a{
+    padding: 6px 14px;
+}
+.setup-p1-3 .add-environment a i{
+	padding-right: 10px;
+}
+.setup-p1-3 .add-environment-container{
+	margin-top: 30px;
+	padding: 0 20px;
+}
+.setup-p1-3 .add-environment-container .environment-cont{
+	border-top: 5px solid #eaeaea;
+    padding: 20px 0 10px;
+}
+.setup-p1-3 .add-environment-container .environment-cont:first-child{
+	padding-top: 0;
+	border-top: none;
+}
+.setup-p1-3 default-environment{
+    padding: 0 20px;
+}
+.setup-p1-3 .add-environment-container .environment-cont a.btn-danger{
+	padding: 0 12px;
+	float: right;
+    position: relative;
+    top: -4px;
+	display: none;
+}
+.setup-p1-3 .add-environment-container .environment-cont:hover a.btn-danger{
+	display: block;
+}
+
+
+/* PAGE 6 ---- STEP 2: Database Connection */
+.setup-p2 .setup-right-content{
+	padding: 10px 15% 0;
+}
+.setup-p2 .setup-info-message{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.setup-p2 .setup-info-message span{
+	position: relative;
+	padding-left: 35px;
+	display: block;
+}
+.setup-p2 .setup-info-message i{
+    font-size: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#frmSelModules input[type='checkbox']{
+    margin-left: -15px;
+}
+#frmSelModules .cb-cont .cbmask-outer{
+	top: 12px;
+}
+#frmSelModules .module-name{
+    font-size: 14px;
+    padding-left: 10px;
+}
+#frmSelModules .radio, .checkbox{
+    padding: 10px 10px 0 0;
+	margin: 0;
+}
+
+#frmSelector input[type='checkbox']{
+    margin-left: -15px;
+}
+#frmSelector .cb-cont .cbmask-outer{
+	top: 12px;
+}
+#frmSelector .module-name{
+    font-size: 14px;
+    padding-left: 10px;
+}
+#frmSelector .radio, .checkbox{
+    padding: 10px 10px 0 0;
+	margin: 0;
+}
+
+
+
+
+/* PAGE 7 ---- STEP 3: Melis Platform Initialization */
+.setup-p1-3 h4,
+.setup-p3 h4,
+.setup-p2 h4{
+    margin-top: 20px;
+	padding: 20px 0;
+}
+.setup-p3 .setup-button-cont{
+    margin-top: 30px;
+}
+ 
+
+/* final modal */
+.setup-modal-overlay,
+.setup-final-modal{
+	display: none;
+}
+.setup-final-modal .modal-content{
+    width: 450px;
+}
+.setup-final-modal .overlay-loader{
+    background: #fff;
+	text-align: center;
+    border-radius: 3px;
+}
+.setup-final-modal .overlay-loader span{
+    padding: 0px 0 0px 20px;
+    display: inline-block;
+    position: relative;
+    top: 19px;
+    font-size: 16px;
+}
+.setup-final-modal .overlay-loader .loader-icon{
+    margin: 34px 0 0 0;
+	position: static;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+

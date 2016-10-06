@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]> 
+	<html class="ie lt-ie9 lt-ie8 lt-ie7">
+	<![endif]-->
+	<!--[if IE 7]>    
+	<html class="ie lt-ie9 lt-ie8">
+	<![endif]-->
+	<!--[if IE 8]>    
+	<html class="ie lt-ie9">
+	<![endif]-->
+	<!--[if gt IE 8]> 
+	<html>
+	<![endif]-->
+	<!--[if !IE]><!-->
+<html>
+   <!-- <![endif]-->
+   <head>
+		<title>MELIS Commerce</title>
+		<!-- Meta -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+		<!-- 
+		**********************************************************
+		In development, use the LESS files and the less.js compiler
+		instead of the minified CSS loaded by default.
+		**********************************************************
+		<link rel="stylesheet/less" href="../assets/less/admin/module.admin.page.index.less" />
+		-->
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" href="../assets/components/library/bootstrap/css/bootstrap.min.css" />
+		<![endif]-->
+		<!-- Init CSS Libraries -->
+		<link rel="stylesheet" href="../assets/components/library/jquery-ui/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="../assets/css/admin/module.admin.page.tables.min.css" />
+		<link rel="stylesheet" href="../assets/css/admin/module.admin.page.form_elements.min.css" />
+		<link rel="stylesheet" href="../assets/css/admin/module.admin.page.index.min.css" />
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<!-- Init JS Libraries -->
+		<script src="../assets/components/library/jquery/jquery.min.js?v=v1.2.3"></script>
+		<script src="../assets/components/library/jquery/jquery-migrate.min.js?v=v1.2.3"></script>
+		<script src="../assets/components/library/modernizr/modernizr.js?v=v1.2.3"></script>
+		<script src="../assets/components/plugins/less-js/less.min.js?v=v1.2.3"></script>
+		<script src="../assets/components/modules/admin/charts/flot/assets/lib/excanvas.js?v=v1.2.3"></script>
+		<script src="../assets/components/plugins/browser/ie/ie.prototype.polyfill.js?v=v1.2.3"></script>
+		<script src="../assets/components/library/jquery-ui/js/jquery-ui.min.js?v=v1.2.3"></script>
+		<!-- DataTable Plugin -->
+		<link rel="stylesheet" href="css/datatables.min.css" />
+		<link rel="stylesheet" href="css/dataTables.uikit.min.css" />
+		<script src="js/datatables.min.js"></script>
+		<!-- FancyTree CSS -->
+		<link rel="stylesheet" href="css/ui.fancytree.css"/>
+		<!-- Melis Customized CSS -->
+		<link rel="stylesheet" href="css/a-style.css"/>
+   </head>
+   <body class="">
+     <div class="navbar navbar-fixed-top navbar-primary main" role="navigation">
+         <div class="navbar-header pull-left">
+            <div class="navbar-brand">
+               <div class="pull-left">
+                  <a href="" class="toggle-button toggle-sidebar btn-navbar"><i class="fa fa-bars"></i></a>
+               </div>
+               <a href="index.html?lang=en" class="appbrand innerL">MELIS PLATFORM</a>
+            </div>
+         </div>
+         <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">Email Management</a></li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right hidden-xs">            
+            <li class="dropdown">
+               <a href="" class="dropdown-toggle" data-toggle="dropdown"><img src="../assets/images/lang/en-flat.jpg" /></a>
+               <ul class="dropdown-menu pull-right">
+                  <li class="active"><a href="">English</a></li>
+                  <li><a href="">French</a></li>
+               </ul>
+            </li>
+            <li><a href="" class="menu-icon"><i class="fa fa-sign-out"></i></a></li>
+         </ul>
+      </div>
+      <div id="menu" class="hidden-print hidden-xs">
+         <div class="sidebar sidebar-inverse">
+            <div class="user-profile media innerAll">
+               <a href="" class="pull-left"><img src="../assets/images/people/50/8.jpg" alt="" class="img-circle"><span class="badge badge-primary">2</span></a>
+               <div class="media-body">
+                  <a href="" class="strong">Adrian Demian</a>
+                  <p class="text-success"><i class="fa fa-fw fa-circle"></i> Online</p>
+               </div>
+               <ul>
+                  <li class="active"><a href=""><i class="fa fa-fw fa-user"></i></a></li>
+                  <li><a href=""><i class="fa fa-fw fa-lock"></i></a></li>
+               </ul>
+            </div>
+            <div class="sidebarMenuWrapper">
+               <ul class="list-unstyled">
+                  <li class="hasSubmenu email active">
+                     <a href="#" data-target="#collapse-email" data-toggle="collapse" class="collapsed">
+                     <i class="fa fa-envelope"></i>
+                     <span>Email</span>
+                     </a>
+                     <ul class="in" id="collapse-email">
+                        <li><a href="a-melis-email-listing.html"><i class="fa fa-plus"></i><span>Email Listing</span></a></li>
+                        <li><a href="a-melis-add-email.html"><i class="fa fa-plus"></i><span>Add New Email</span></a></li>
+                     </ul>  
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+ <div id="content">      
+      	<div class="me-heading bg-white border-bottom">      		
+      		<div class="row">				
+				<div class="me-hl col-xs-12 col-md-3">
+	      			<a href="#" class="btn btn-success add-email" title="Add New Email">Add New Email</a>
+	      		</div>
+       		</div>       		
+      	</div>
+		<script type="text/javascript" rel="JavaScript">				
+			$(function($){
+				$('#product-listing-table').DataTable({
+					"order": [[ 1, "asc" ]],
+					"columns": [
+						null,
+						null,
+						{"orderable": false}
+					],
+					"language" : {
+						"lengthMenu": "Show _MENU_"
+					}, 
+					"lengthMenu": [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ]					
+				});
+				
+			});
+		</script>		
+        <!-- content -->
+        <div class="table-container">        				
+				
+		<!-- content -->
+         <div class="content-cont">
+         	
+			
+				<table class="me-table table table-striped table-primary dt-responsive nowrap no-footer dtr-inline dataTable" id="product-listing-table">
+					
+					<thead>
+						<tr>
+							<th class="center" style="width: 30px;">ID</th>
+							<th>Name</th>
+							<th class="text-center th-action" style="width: 100px;">Action</th>
+						</tr>
+					</thead>
+			
+					<tbody>
+						<tr>
+							<td class="center">1</td>
+							<td style="font-size: 14px;">Email for Commerce Customer</td>								
+							<td class="text-center">
+								<a href="" class="btn btn-success" ><i class="fa fa-pencil" title="Edit"></i></a>	
+								<a href="" class="btn btn-danger" style="margin-right:5px;"><i data-toggle="modal"class="fa fa-times" title="Delete"></i></a>
+							</td>							
+						</tr>
+						<tr>
+							<td class="center">2</td>
+							<td style="font-size: 14px;">Email for Clients</td>								
+							<td class="text-center">
+								<a href="" class="btn btn-success" ><i class="fa fa-pencil" title="Edit"></i></a>	
+								<a href="" class="btn btn-danger" style="margin-right:5px;"><i data-toggle="modal"class="fa fa-times" title="Delete"></i></a>
+							</td>							
+						</tr>
+						<tr>
+							<td class="center">3</td>
+							<td style="font-size: 14px;">Email for Support</td>								
+							<td class="text-center">
+								<a href="" class="btn btn-success" ><i class="fa fa-pencil" title="Edit"></i></a>	
+								<a href="" class="btn btn-danger" style="margin-right:5px;"><i data-toggle="modal"class="fa fa-times" title="Delete"></i></a>
+							</td>							
+						</tr>
+						
+						
+					</tbody>
+				</table>
+				
+			</div>
+         	
+         	
+         
+         </div>
+ 
+         
+      </div>
+      <!-- // Content END -->
+              <div class="clearfix"></div>
+      <!-- // Sidebar menu & content wrapper END -->
+   
+      <!-- // Main Container Fluid END -->
+      <!-- Global -->
+      <script>
+         var basePath = '',
+         	commonPath = '../assets/',
+         	rootPath = '../',
+         	DEV = false,
+         	componentsPath = '../assets/components/';
+         
+         var primaryColor = '#cb4040',
+         	dangerColor = '#b55151',
+         	infoColor = '#466baf',
+         	successColor = '#8baf46',
+         	warningColor = '#ab7a4b',
+         	inverseColor = '#45484d';
+         
+         var themerPrimaryColor = primaryColor;
+    </script>	
+	
+	<script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>	
+	<!-- tables -->
+    <script src="../assets/components/modules/admin/tables/classic/assets/js/tables-classic.init.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/modules/admin/forms/elements/fuelux-checkbox/fuelux-checkbox.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-select/assets/lib/js/bootstrap-select.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-select/assets/custom/js/bootstrap-select.init.js?v=v1.2.3"></script>
+				
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-switch/assets/lib/js/bootstrap-switch.js?v=v1.2.3"></script>
+    <script src="../assets/components/modules/admin/forms/elements/bootstrap-switch/assets/custom/js/bootstrap-switch.init.js?v=v1.2.3"></script>
+			
+	<script src="../assets/components/library/bootstrap/js/bootstrap.min.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/plugins/nicescroll/jquery.nicescroll.min.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/plugins/breakpoints/breakpoints.js?v=v1.2.3"></script>
+	<script src="../assets/components/core/js/animations.init.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/widgets/widget-chat/assets/js/widget-chat.js?v=v1.2.3"></script>
+	<script src="../assets/components/plugins/slimscroll/jquery.slimscroll.js?v=v1.2.3"></script>
+	
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-datepicker/assets/lib/js/bootstrap-datepicker.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/forms/elements/bootstrap-datepicker/assets/custom/js/bootstrap-datepicker.init.js?v=v1.2.3"></script>
+	<!-- Pie Chart -->
+	<script src="../assets/components/modules/admin/charts/easy-pie/assets/lib/js/jquery.easy-pie-chart.js?v=v1.2.3"></script>
+	<script src="../assets/components/modules/admin/charts/easy-pie/assets/custom/easy-pie.init.js?v=v1.2.3"></script>
+	<!-- Widget Scrollable -->
+	<script src="../assets/components/modules/admin/widgets/widget-scrollable/assets/js/widget-scrollable.init.js?v=v1.2.3"></script>
+	<!-- Holder -->
+	<script src="../assets/components/plugins/holder/holder.js?v=v1.2.3"></script>
+	<!-- Side Bar -->
+	<script src="../assets/components/core/js/sidebar.main.init.js?v=v1.2.3"></script>
+	<script src="../assets/components/core/js/sidebar.collapse.init.js?v=v1.2.3"></script>
+	<!-- FancyTree -->
+	<script src="js/jquery.fancytree.js"></script>
+	<!-- Utilities -->
+	<script src="../assets/components/helpers/themer/assets/plugins/cookie/jquery.cookie.js?v=v1.2.3"></script>
+	<script src="../assets/components/core/js/core.init.js?v=v1.2.3"></script>	
+	
+	<script src="js/a-melis.js"></script>
+      
+	  
+   </body>
+</html>	  
+	  
+	  
