@@ -18,7 +18,6 @@ HTTP_RAW_POST_DATA_unpubaction.txt
 testprospectdata.txt
 module/ModuleMeetUp/
 vendor/*
-!vendor/melistechnology
 <<<<<<< HEAD
 /deployment.properties
 /deployment.xml
