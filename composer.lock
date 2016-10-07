@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a6806951e460170e21b9d9bf9841ef8",
+    "content-hash": "adda31d9d0e74156c27ede31fa3ddfde",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -662,12 +662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "4424d2f874b7b7cc20734846180856dbe9128007"
+                "reference": "97b6eca033ab95e75989c47e23ca8c314c1242b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/4424d2f874b7b7cc20734846180856dbe9128007",
-                "reference": "4424d2f874b7b7cc20734846180856dbe9128007",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/97b6eca033ab95e75989c47e23ca8c314c1242b9",
+                "reference": "97b6eca033ab95e75989c47e23ca8c314c1242b9",
                 "shasum": ""
             },
             "require": {
@@ -698,7 +698,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 15:03:59"
+            "time": "2016-10-06 15:15:53"
         },
         {
             "name": "melisplatform/melis-engine",
@@ -828,99 +828,6 @@
                 "zf2"
             ],
             "time": "2016-10-06 14:51:26"
-        },
-        {
-            "name": "melisplatform/melis-small-business",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:melisplatform/melis-small-business.git",
-                "reference": "e881e6a6c919bc1123edef6151c806da448b0318"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-small-business/zipball/e881e6a6c919bc1123edef6151c806da448b0318",
-                "reference": "e881e6a6c919bc1123edef6151c806da448b0318",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.5 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~5.4"
-            },
-            "type": "melisplatform-module",
-            "extra": {
-                "module-name": "MelisSmallBusiness"
-            },
-            "autoload": {
-                "psr-4": {
-                    "MelisSmallBusiness\\": "src/"
-                }
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Melis Platform Small Business module",
-            "homepage": "https://github.com/melisplatform/melis-small-business",
-            "keywords": [
-                "cms",
-                "melis",
-                "module",
-                "zf2"
-            ],
-            "support": {
-                "source": "https://github.com/melisplatform/melis-small-business",
-                "issues": "https://github.com/melisplatform/melis-small-business/issues"
-            },
-            "time": "2016-10-06 14:41:55"
-        },
-        {
-            "name": "melisplatform/melis-zend-server",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:melisplatform/melis-zend-server.git",
-                "reference": "96d73515a01cd8ba83a56fb4e2d9b5de83a26753"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-zend-server/zipball/96d73515a01cd8ba83a56fb4e2d9b5de83a26753",
-                "reference": "96d73515a01cd8ba83a56fb4e2d9b5de83a26753",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.5 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~5.4"
-            },
-            "type": "melisplatform-module",
-            "extra": {
-                "module-name": "MelisZendServer"
-            },
-            "autoload": {
-                "psr-4": {
-                    "MelisZendServer\\": "src/"
-                }
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Melis Zend Server module",
-            "homepage": "https://github.com/melisplatform/melis-zend-server",
-            "keywords": [
-                "cms",
-                "melis",
-                "module",
-                "zend-server",
-                "zf2"
-            ],
-            "support": {
-                "source": "https://github.com/melisplatform/melis-zend-server",
-                "issues": "https://github.com/melisplatform/melis-zend-server/issues"
-            },
-            "time": "2016-10-06 15:09:10"
         },
         {
             "name": "melisplatform/zendsearch",
@@ -1457,16 +1364,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.5.7",
+            "version": "5.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3f67cee782c9abfaee5e32fd2f57cdd54bc257ba"
+                "reference": "a7f2db56518e50ab92f28f739810dfad2f223b6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3f67cee782c9abfaee5e32fd2f57cdd54bc257ba",
-                "reference": "3f67cee782c9abfaee5e32fd2f57cdd54bc257ba",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a7f2db56518e50ab92f28f739810dfad2f223b6b",
+                "reference": "a7f2db56518e50ab92f28f739810dfad2f223b6b",
                 "shasum": ""
             },
             "require": {
@@ -1500,7 +1407,6 @@
                 "ext-pdo": "*"
             },
             "suggest": {
-                "ext-tidy": "*",
                 "ext-xdebug": "*",
                 "phpunit/php-invoker": "~1.1"
             },
@@ -1510,7 +1416,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5.x-dev"
+                    "dev-master": "5.6.x-dev"
                 }
             },
             "autoload": {
@@ -1536,7 +1442,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-10-03 13:04:15"
+            "time": "2016-10-06 15:20:39"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -5940,9 +5846,7 @@
         "melisplatform/melis-cms-prospects": 20,
         "melisplatform/melis-engine": 20,
         "melisplatform/melis-front": 20,
-        "melisplatform/melis-installer": 20,
-        "melisplatform/melis-small-business": 20,
-        "melisplatform/melis-zend-server": 20
+        "melisplatform/melis-installer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

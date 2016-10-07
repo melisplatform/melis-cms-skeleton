@@ -18,18 +18,6 @@
     "melisplatform/melis-cms-prospects": "dev-master",
     "melisplatform/melis-engine": "dev-master",
     "melisplatform/melis-front": "dev-master",
-    "melisplatform/melis-installer": "dev-master",
-    "melisplatform/melis-small-business": "dev-master",
-    "melisplatform/melis-zend-server": "dev-master"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/melisplatform/melis-small-business"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/melisplatform/melis-zend-server"
-    }
-  ]
+    "melisplatform/melis-installer": "dev-master"
+  }
 }
