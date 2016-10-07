@@ -533,19 +533,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-cms.git",
-                "reference": "b0566d3906c25de7b7298578f0652fcb4d12c10a"
+                "reference": "022c0dda2a22d892bed4bdbaa9dfe5a47f437ab6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-cms/zipball/b0566d3906c25de7b7298578f0652fcb4d12c10a",
-                "reference": "b0566d3906c25de7b7298578f0652fcb4d12c10a",
+                "url": "https://api.github.com/repos/melisplatform/melis-cms/zipball/022c0dda2a22d892bed4bdbaa9dfe5a47f437ab6",
+                "reference": "022c0dda2a22d892bed4bdbaa9dfe5a47f437ab6",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.4"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -568,7 +568,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 15:00:04"
+            "time": "2016-10-07 09:39:37"
         },
         {
             "name": "melisplatform/melis-cms-page-historic",
@@ -576,19 +576,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-cms-page-historic.git",
-                "reference": "d6c777a9b12ba0b4fbab06dd1f0dcfc849a5ef34"
+                "reference": "2ef14a046080c3496c830480a7efa4e2ce21fb83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-cms-page-historic/zipball/d6c777a9b12ba0b4fbab06dd1f0dcfc849a5ef34",
-                "reference": "d6c777a9b12ba0b4fbab06dd1f0dcfc849a5ef34",
+                "url": "https://api.github.com/repos/melisplatform/melis-cms-page-historic/zipball/2ef14a046080c3496c830480a7efa4e2ce21fb83",
+                "reference": "2ef14a046080c3496c830480a7efa4e2ce21fb83",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.4"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -611,7 +611,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 15:01:46"
+            "time": "2016-10-07 09:40:32"
         },
         {
             "name": "melisplatform/melis-cms-prospects",
@@ -619,19 +619,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-cms-prospects.git",
-                "reference": "5459c0498830c43bce7eb9b4a04d6cf255c3971f"
+                "reference": "c2d1ee56a30c4e4d68be1509e46fddf7292cb6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-cms-prospects/zipball/5459c0498830c43bce7eb9b4a04d6cf255c3971f",
-                "reference": "5459c0498830c43bce7eb9b4a04d6cf255c3971f",
+                "url": "https://api.github.com/repos/melisplatform/melis-cms-prospects/zipball/c2d1ee56a30c4e4d68be1509e46fddf7292cb6fb",
+                "reference": "c2d1ee56a30c4e4d68be1509e46fddf7292cb6fb",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.4"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -654,7 +654,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 15:03:03"
+            "time": "2016-10-07 09:41:10"
         },
         {
             "name": "melisplatform/melis-core",
@@ -662,12 +662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "97b6eca033ab95e75989c47e23ca8c314c1242b9"
+                "reference": "1a04cff4ac4d73310ce96067d3f390ebab578061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/97b6eca033ab95e75989c47e23ca8c314c1242b9",
-                "reference": "97b6eca033ab95e75989c47e23ca8c314c1242b9",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/1a04cff4ac4d73310ce96067d3f390ebab578061",
+                "reference": "1a04cff4ac4d73310ce96067d3f390ebab578061",
                 "shasum": ""
             },
             "require": {
@@ -675,7 +675,7 @@
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.4"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -698,7 +698,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 15:15:53"
+            "time": "2016-10-07 09:44:49"
         },
         {
             "name": "melisplatform/melis-engine",
@@ -706,19 +706,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-engine.git",
-                "reference": "15ba2d73f69b1f059f176ca3d0606df9e5a11072"
+                "reference": "4dab9cb190a2280e53929f64b973325cd24d3dc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-engine/zipball/15ba2d73f69b1f059f176ca3d0606df9e5a11072",
-                "reference": "15ba2d73f69b1f059f176ca3d0606df9e5a11072",
+                "url": "https://api.github.com/repos/melisplatform/melis-engine/zipball/4dab9cb190a2280e53929f64b973325cd24d3dc3",
+                "reference": "4dab9cb190a2280e53929f64b973325cd24d3dc3",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.4"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -741,7 +741,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 15:05:10"
+            "time": "2016-10-07 09:41:57"
         },
         {
             "name": "melisplatform/melis-front",
@@ -749,19 +749,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-front.git",
-                "reference": "4aa95137e6dcfd4a8a094f6d39b322fdfebe8057"
+                "reference": "1a66a89bb408906ff579c750dd6fc9eb28c5c6d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-front/zipball/4aa95137e6dcfd4a8a094f6d39b322fdfebe8057",
-                "reference": "4aa95137e6dcfd4a8a094f6d39b322fdfebe8057",
+                "url": "https://api.github.com/repos/melisplatform/melis-front/zipball/1a66a89bb408906ff579c750dd6fc9eb28c5c6d7",
+                "reference": "1a66a89bb408906ff579c750dd6fc9eb28c5c6d7",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.4"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -784,7 +784,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 15:06:11"
+            "time": "2016-10-07 09:47:07"
         },
         {
             "name": "melisplatform/melis-installer",
@@ -792,19 +792,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "b18fcf7825a18b7793741e39234a74a48ccb6f1a"
+                "reference": "d2376aa31ecb7cbcba0b715c5057e599bd1ef980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/b18fcf7825a18b7793741e39234a74a48ccb6f1a",
-                "reference": "b18fcf7825a18b7793741e39234a74a48ccb6f1a",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/d2376aa31ecb7cbcba0b715c5057e599bd1ef980",
+                "reference": "d2376aa31ecb7cbcba0b715c5057e599bd1ef980",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.4"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -827,7 +827,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2016-10-06 14:51:26"
+            "time": "2016-10-07 09:45:57"
         },
         {
             "name": "melisplatform/zendsearch",
