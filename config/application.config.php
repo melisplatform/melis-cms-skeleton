@@ -1,11 +1,9 @@
 <?php
 
-
-define('MELIS_MODULE_CONFIG_FOLDER', 'module');
 return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array_merge(
-        MelisCore\ModuleManager::getModules(),
+        MelisCore\MelisModuleManager::getModules(),
         array()
     ),
 
@@ -63,7 +61,7 @@ return array(
     //     ),
     // )
 
-   // Initial configuration with which to seed the ServiceManager.
-   // Should be compatible with Zend\ServiceManager\Config.
-   // 'service_manager' => array(),
+    // Initial configuration with which to seed the ServiceManager.
+    // Should be compatible with Zend\ServiceManager\Config.
+    // 'service_manager' => array(),
 );
