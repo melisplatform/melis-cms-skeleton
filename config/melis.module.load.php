@@ -4,4 +4,5 @@ return array(
   'MelisCore',
   'MelisEngine',
   'MelisCms',
+  'MelisInstaller',
 );
