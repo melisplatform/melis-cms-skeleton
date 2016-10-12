@@ -1,0 +1,37 @@
+php-apache70:
+  image: melisplatform/melis-docker:dev-apache-7.0
+  container_name: melis-skeleton-php-apache70
+  volumes:
+    - .:/var/www/html
+  ports:
+    - "8080:80"
+  links:
+    - mysql
+
+php-apache55:
+  image: melisplatform/melis-docker:dev-apache-5.5
+  container_name: melis-skeleton-php-apache55
+  volumes:
+    - .:/var/www/html
+  ports:
+    - "8081:80"
+  links:
+    - mysql
+
+php-apache56:
+  image: melisplatform/melis-docker:dev-apache-5.6
+  container_name: melis-skeleton-php-apache56
+  volumes:
+    - .:/var/www/html
+  ports:
+    - "8082:80"
+  links:
+    - mysql
+
+mysql:
+  image: mysql
+  container_name: melis-skeleton-mysql
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: rootpasswd
