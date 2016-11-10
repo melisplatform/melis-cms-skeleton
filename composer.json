@@ -8,6 +8,7 @@
     "ext-openssl": "*",
     "ext-json": "*",
     "ext-pdo_mysql": "*",
+    "ext-mcrypt": "*",
     "zendframework/zendframework": "2.5.3",
     "rwoverdijk/assetmanager": "^1.7",
     "melisplatform/zendsearch": "~2.0.0",

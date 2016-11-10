@@ -15,13 +15,6 @@ bin/*
 /testdata.txt
 HTTP_RAW_POST_DATA_unpubPublishedaction.txt
 HTTP_RAW_POST_DATA_unpubaction.txt
-testprospectdata.txt
-module/ModuleMeetUp/
 vendor/*
-<<<<<<< HEAD
 /deployment.properties
 /deployment.xml
-=======
-deployment.properties
-deployment.xml
->>>>>>> branch 'develop' of https://bbrioso@bitbucket.org/melistechnologyteam/melis-cms-commerce-v2.git

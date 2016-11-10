@@ -6,7 +6,7 @@ SETUP: Follow the following steps to install Melis CE:
 1/ Create your vhost (check file /install/vhost.txt for example)
    Define your MELIS_PLATFORM inside your vhost.
    Define your MELIS_MODULE, your site's module folder name in /module/MelisSites
-   You might need to add/remove "Require all granted" from your vhost directory / directoryMatch depending on your server version
+   You might need to add/remove "Require all granted" from your vhost directory depending on your server version
 
 2/ Add this entries to your hosts file (or update if you're changing the local domains)
    127.0.0.1       www.mysite.local

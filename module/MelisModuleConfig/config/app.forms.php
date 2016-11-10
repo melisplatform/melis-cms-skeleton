@@ -5,7 +5,7 @@ return array(
 
 
        // change the order of the MelisCore language form tool.
-       'meliscore_tool_language_generic_form' => array(
+  /*     'meliscore_tool_language_generic_form' => array(
             'elements' => array(
                 array(
                     'spec' => array(
@@ -34,7 +34,7 @@ return array(
                     ),
                 ),
             ),
-       ),
+       ), */
 
 
    ),
