@@ -17,6 +17,8 @@
     "melisplatform/melis-cms": "dev-master",
     "melisplatform/melis-cms-page-historic": "dev-master",
     "melisplatform/melis-cms-prospects": "dev-master",
+    "melisplatform/melis-cms-news": "dev-master",
+    "melisplatform/melis-cms-slider": "dev-master",
     "melisplatform/melis-engine": "dev-master",
     "melisplatform/melis-front": "dev-master",
     "melisplatform/melis-installer": "dev-master"
