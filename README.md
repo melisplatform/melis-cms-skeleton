@@ -43,7 +43,7 @@ It should be something similar to:
 
     ServerName www.mysite.local:80
     SetEnv MELIS_PLATFORM "development"
-    SetEnv MELIS_MODULE "MySiteTest"
+    SetEnv MELIS_MODULE "MelisDemoCms"
 
 </VirtualHost>
 ```
