@@ -26,12 +26,4 @@ return array(
     ),
     'view_manager' => array(
     ),
-    'asset_manager' => array(
-        'activate_cache' => array(
-            'platforms' => array(
-                'development' => 0,
-                'preprod' => 1,
-            ),
-        ),
-    ),
 );

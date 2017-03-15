@@ -1,6 +1,6 @@
 <?php
 return array(
-  'AssetManager',
+  'MelisAssetManager',
   'MelisCore',
   'MelisEngine',
   'MelisCms',

@@ -14,7 +14,7 @@
 <VirtualHost *:80>
     DocumentRoot "PATH_DOCROOT/public"
     <Directory "PATH_DOCROOT/public">
-        Options +Indexes +FollowSymLinks +ExecCGI
+        Options -Indexes +FollowSymLinks +ExecCGI
         DirectoryIndex index.php
         Order allow,deny
         Allow from all
@@ -34,7 +34,7 @@
 <VirtualHost *:80>
     DocumentRoot "PATH_DOCROOT/public"
     <Directory "PATH_DOCROOT/public">
-        Options +Indexes +FollowSymLinks +ExecCGI
+        Options -Indexes +FollowSymLinks +ExecCGI
         DirectoryIndex index.php
         Order allow,deny
         Allow from all
