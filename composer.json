@@ -11,16 +11,16 @@
     "ext-mcrypt": "*",
     "zendframework/zendframework": "2.5.3",
     "melisplatform/zendsearch": "~2.0.0",
-    "melisplatform/melis-asset-manager": "dev-master",
-    "melisplatform/melis-core": "dev-master",
-    "melisplatform/melis-calendar": "dev-master",
-    "melisplatform/melis-cms": "dev-master",
-    "melisplatform/melis-cms-page-historic": "dev-master",
-    "melisplatform/melis-cms-prospects": "dev-master",
-    "melisplatform/melis-cms-news": "dev-master",
-    "melisplatform/melis-cms-slider": "dev-master",
-    "melisplatform/melis-engine": "dev-master",
-    "melisplatform/melis-front": "dev-master",
-    "melisplatform/melis-installer": "dev-master"
+    "melisplatform/melis-asset-manager": "~2.1",
+    "melisplatform/melis-core": "~2.1",
+    "melisplatform/melis-calendar": "~2.1",
+    "melisplatform/melis-cms": "~2.1",
+    "melisplatform/melis-cms-page-historic": "~2.1",
+    "melisplatform/melis-cms-prospects": "~2.1",
+    "melisplatform/melis-cms-news": "~2.1",
+    "melisplatform/melis-cms-slider": "~2.1",
+    "melisplatform/melis-engine": "~2.1",
+    "melisplatform/melis-front": "~2.1",
+    "melisplatform/melis-installer": "~2.1"
   }
 }
