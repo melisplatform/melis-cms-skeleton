@@ -21,6 +21,7 @@
     "melisplatform/melis-cms-slider": "~2.1",
     "melisplatform/melis-engine": "~2.1",
     "melisplatform/melis-front": "~2.1",
+    "melisplatform/melis-design": "~2.1",
     "melisplatform/melis-installer": "~2.1"
   }
 }
