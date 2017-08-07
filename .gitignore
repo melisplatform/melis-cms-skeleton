@@ -12,9 +12,11 @@ bin/*
 .idea/
 .buildpath
 .project
-/testdata.txt
 HTTP_RAW_POST_DATA_unpubPublishedaction.txt
 HTTP_RAW_POST_DATA_unpubaction.txt
-vendor/*
 /deployment.properties
 /deployment.xml
+public/cache/
+config/melis.module.load.php
+sh.exe.stackdump
+module/MelisModuleConfig/config/translation.list.php

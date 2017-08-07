@@ -1,7 +1,5 @@
 <?php
 
-error_reporting(E_ALL & ~E_USER_DEPRECATED);
-
 /**
  * This makes our life easier when dealing with paths. Everything is relative
  * to the application root now.
@@ -16,7 +14,8 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__ . parse_url($_SERVER['RE
 // Setup autoloading
 require 'init_autoloader.php';
 
-define('HTTP_ROOT', dirname(__DIR__) . '/public/');
+// define('HTTP_ROOT', dirname(__DIR__) . '/public/');
 
+// var_dump(HTTP_ROOT); die();
 // Run the application!
 Zend\Mvc\Application::init(require 'config/application.config.php')->run();
