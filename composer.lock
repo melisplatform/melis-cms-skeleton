@@ -713,16 +713,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "c6ac7a68a5bd78a99baaf1e68699c3c4e6b2cbe7"
+                "reference": "4b3bfc61364b56ca70e5b42f893eab88d250203d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/c6ac7a68a5bd78a99baaf1e68699c3c4e6b2cbe7",
-                "reference": "c6ac7a68a5bd78a99baaf1e68699c3c4e6b2cbe7",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/4b3bfc61364b56ca70e5b42f893eab88d250203d",
+                "reference": "4b3bfc61364b56ca70e5b42f893eab88d250203d",
                 "shasum": ""
             },
             "require": {
@@ -753,7 +753,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2017-08-07 05:51:50"
+            "time": "2017-09-22 16:14:15"
         },
         {
             "name": "melisplatform/melis-design",
