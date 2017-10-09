@@ -9,6 +9,7 @@
     "ext-json": "*",
     "ext-pdo_mysql": "*",
     "ext-mcrypt": "*",
+    "justinrainbow/json-schema": "5.2.1",
     "zendframework/zendframework": "2.5.3",
     "melisplatform/zendsearch": "~2.0.0",
     "melisplatform/melis-asset-manager": "~2.2.0",
