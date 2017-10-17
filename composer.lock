@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4298143764ef906a6cc590e7a9f30a0c",
-    "content-hash": "5ab4fadbc0640ed701fc1d63b2737b17",
+    "hash": "46614dbfd6fb9d9d0e10dc8a58ecc65f",
+    "content-hash": "f31ec62e821cf676fded20e50713dc35",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -757,7 +757,7 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v2.2.6",
+            "version": "v2.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
