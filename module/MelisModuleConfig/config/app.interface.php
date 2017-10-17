@@ -42,6 +42,9 @@ return array(
 		),
 	),
 	'interface_ordering' => array(
+		'meliscore_header' => array(
+            'melismessenger_tool_header_messages',
+        ),
 		'meliscore_leftmenu' => array(
 			'meliscore_leftmenu_identity',
 			'meliscore_leftmenu_dashboard',
