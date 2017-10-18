@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "15ae400662cc05ec13348717be582185",
-    "content-hash": "49159481d3a325c92420330cac96ee60",
+    "hash": "879c718fe0096ce57f6f956f9b96673d",
+    "content-hash": "3a27747c9e1d0965d2669c6686c77269",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -926,16 +926,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "30dabca9eeffb92860b2075c1704c60a28d48df0"
+                "reference": "8c278e18e0b0c4bddd8cd19b3ebee9cdc8dd33d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/30dabca9eeffb92860b2075c1704c60a28d48df0",
-                "reference": "30dabca9eeffb92860b2075c1704c60a28d48df0",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/8c278e18e0b0c4bddd8cd19b3ebee9cdc8dd33d9",
+                "reference": "8c278e18e0b0c4bddd8cd19b3ebee9cdc8dd33d9",
                 "shasum": ""
             },
             "require": {
@@ -965,7 +965,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2017-10-17 05:08:07"
+            "time": "2017-10-18 04:52:19"
         },
         {
             "name": "melisplatform/melis-marketplace",
