@@ -1,0 +1,12 @@
+<?php
+
+return
+    [
+        'queue' =>
+            [
+                'zohoCampaigns' =>
+                    [
+                        'queueUrl' => '@queue.zohoCampaigns.queueUrl@'
+                    ]
+            ]
+    ];

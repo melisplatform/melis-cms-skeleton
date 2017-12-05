@@ -1,0 +1,14 @@
+<?php
+
+return
+    [
+        'aws' =>
+            [
+                'region' => '@aws.region@',
+                'credentials' =>
+                    [
+                        'key' => '@aws.key@',
+                        'secret' => '@aws.secret@'
+                    ]
+            ]
+    ];

@@ -13,7 +13,8 @@
     "zendframework/zendframework": "2.5.3",
     "melisplatform/zendsearch": "~2.0.0",
     "melisplatform/melis-asset-manager": "~2.2.0",
-    "melisplatform/melis-core": "~2.2.7",
+    "melisplatform/melis-core": "dev-feature/zoho",
+    "melisplatform/melis-zoho": "dev-master",
     "melisplatform/melis-calendar": "~2.2.1",
     "melisplatform/melis-cms": "~2.2.1",
     "melisplatform/melis-cms-page-historic": "~2.2.1",
@@ -27,5 +28,15 @@
     "melisplatform/melis-messenger": "~2.2.1",
     "melisplatform/melis-marketplace": "~2.2.0",
     "melisplatform/melis-cms-page-analytics": "~2.2.1"
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/melisplatform/melis-core"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/melisplatform/melis-zoho"
+    }
+  ]
 }
