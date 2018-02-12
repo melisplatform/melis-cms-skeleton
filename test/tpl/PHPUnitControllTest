@@ -38,12 +38,5 @@ class {{moduleTestControllerName}} extends AbstractHttpControllerTestCase
         $this->assertEquals("equalvalue", "equalvalue");
     }
 
-    public function testBasic{{moduleTestName}}Error()
-    {
-        $this->assertEquals("supposed-to", "display-an-error");
-    }
-
-
-
 }
 
