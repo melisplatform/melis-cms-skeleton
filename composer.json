@@ -11,11 +11,11 @@
         "ext-pdo_mysql": "*",
         "ext-intl": "*",
         "zendframework/zendframework": "2.5.3",
-        "melisplatform/melis-asset-manager": "dev-develop",
-        "melisplatform/melis-installer": "dev-melis-installer-v2",
+        "melisplatform/melis-asset-manager": "~2.3.0",
+        "melisplatform/melis-installer": "~2.3.0",
         "justinrainbow/json-schema": "5.2.1",
-        "melisplatform/melis-dbdeploy": "dev-master",
-        "melisplatform/melis-composerdeploy": "dev-master",
-        "melisplatform/melis-core": "dev-develop as 2.2.7"
+        "melisplatform/melis-dbdeploy": "~2.3.0",
+        "melisplatform/melis-composerdeploy": "~2.3.0",
+        "melisplatform/melis-core": "~2.3.0"
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "24cd6e430793f9a42b0adce068851e46",
+    "content-hash": "219e77db7237158d987b4f8d2e687974",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -467,7 +467,7 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "dev-develop",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
@@ -518,7 +518,7 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "dev-master",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
@@ -567,16 +567,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "dev-develop",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "0bc7b606d3874ec1c5eb144268fe186d92d08da1"
+                "reference": "f224bfcf080d613fd45f96501af9739864776492"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/0bc7b606d3874ec1c5eb144268fe186d92d08da1",
-                "reference": "0bc7b606d3874ec1c5eb144268fe186d92d08da1",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/f224bfcf080d613fd45f96501af9739864776492",
+                "reference": "f224bfcf080d613fd45f96501af9739864776492",
                 "shasum": ""
             },
             "require": {
@@ -620,11 +620,11 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-02-22T04:03:59+00:00"
+            "time": "2018-02-26T08:51:36+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "dev-master",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
@@ -672,16 +672,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "dev-melis-installer-v2",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "8fb3faa40864ea9070a384b4a2002cef4908c887"
+                "reference": "0fd74f794126cc20299a06fcf8c2f6de47e175ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/8fb3faa40864ea9070a384b4a2002cef4908c887",
-                "reference": "8fb3faa40864ea9070a384b4a2002cef4908c887",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/0fd74f794126cc20299a06fcf8c2f6de47e175ba",
+                "reference": "0fd74f794126cc20299a06fcf8c2f6de47e175ba",
                 "shasum": ""
             },
             "require": {
@@ -723,7 +723,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-02-26T04:29:37+00:00"
+            "time": "2018-02-26T08:42:33+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5762,22 +5762,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "2.2.7",
-            "alias_normalized": "2.2.7.0",
-            "version": "dev-develop",
-            "package": "melisplatform/melis-core"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "melisplatform/melis-asset-manager": 20,
-        "melisplatform/melis-installer": 20,
-        "melisplatform/melis-dbdeploy": 20,
-        "melisplatform/melis-composerdeploy": 20,
-        "melisplatform/melis-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
