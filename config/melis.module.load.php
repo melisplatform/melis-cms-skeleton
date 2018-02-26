@@ -1,8 +1,8 @@
 <?php
 return array(
   'MelisAssetManager',
-  'MelisCore',
-  'MelisEngine',
-  'MelisCms',
+  'MelisDbDeploy',
+  'MelisComposerDeploy',
   'MelisInstaller',
+  'MelisModuleConfig',
 );

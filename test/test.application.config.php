@@ -5,12 +5,6 @@ return array(
 		'MelisFront',
 		'MelisEngine',
 		'MelisCms',
-		'MelisCalendar',
-		'MelisCmsNews',
-		'MelisCmsPageHistoric',
-		'MelisCmsProspects',
-		'MelisCmsSlider',
-
 	),
 	'module_listener_options' => array(
 		'module_paths' => array(
