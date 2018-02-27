@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "219e77db7237158d987b4f8d2e687974",
+    "content-hash": "428de1a6d376544e4cd83fc342eaa5be",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -567,16 +567,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v2.3.0",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "6fa2cadc619982463bd747ec0002350eb312f4ac"
+                "reference": "a01596fca77ee4e304b1447205ba466e2319c072"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/6fa2cadc619982463bd747ec0002350eb312f4ac",
-                "reference": "6fa2cadc619982463bd747ec0002350eb312f4ac",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/a01596fca77ee4e304b1447205ba466e2319c072",
+                "reference": "a01596fca77ee4e304b1447205ba466e2319c072",
                 "shasum": ""
             },
             "require": {
@@ -585,6 +585,7 @@
                 "ext-openssl": "*",
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
+                "melisplatform/melis-asset-manager": "^2.3.0",
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
@@ -620,7 +621,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-02-27T05:50:38+00:00"
+            "time": "2018-02-27T10:56:41+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
