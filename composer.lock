@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "428de1a6d376544e4cd83fc342eaa5be",
+    "content-hash": "2be7e4d53e7991b126dcefc5afb5210c",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -625,16 +625,16 @@
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v2.3.0",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "7ef7d4b66ab4f3083c1b933b74e35064a51e712d"
+                "reference": "0d078b4d003365245684483dd5f589a4b890adf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/7ef7d4b66ab4f3083c1b933b74e35064a51e712d",
-                "reference": "7ef7d4b66ab4f3083c1b933b74e35064a51e712d",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/0d078b4d003365245684483dd5f589a4b890adf4",
+                "reference": "0d078b4d003365245684483dd5f589a4b890adf4",
                 "shasum": ""
             },
             "require": {
@@ -669,20 +669,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-02-19T10:06:00+00:00"
+            "time": "2018-02-27T12:15:30+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.3.1",
+            "version": "v2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "140034d09ce9d9f9be7761eec7c9faa8b421a85e"
+                "reference": "bbf851390b87f75d8b973b8d40e2d5b5fde903e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/140034d09ce9d9f9be7761eec7c9faa8b421a85e",
-                "reference": "140034d09ce9d9f9be7761eec7c9faa8b421a85e",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/bbf851390b87f75d8b973b8d40e2d5b5fde903e4",
+                "reference": "bbf851390b87f75d8b973b8d40e2d5b5fde903e4",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-02-26T10:54:02+00:00"
+            "time": "2018-03-01T22:06:12+00:00"
         },
         {
             "name": "myclabs/deep-copy",
