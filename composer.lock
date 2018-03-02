@@ -625,16 +625,16 @@
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v2.3.2",
+            "version": "v2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "8ef74d03d450f1e2e5655bbfc82d58dcac0c0a67"
+                "reference": "019d665356d4d6bdfaec7cb5e2d109f560c3a803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/8ef74d03d450f1e2e5655bbfc82d58dcac0c0a67",
-                "reference": "8ef74d03d450f1e2e5655bbfc82d58dcac0c0a67",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/019d665356d4d6bdfaec7cb5e2d109f560c3a803",
+                "reference": "019d665356d4d6bdfaec7cb5e2d109f560c3a803",
                 "shasum": ""
             },
             "require": {
@@ -669,20 +669,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-01T23:15:12+00:00"
+            "time": "2018-03-02T04:16:56+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.3.5",
+            "version": "v2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "91a3ac8c0028e2a7c4fd585888cbb92d0aead025"
+                "reference": "938b1794ecd4d449f8e37312879e3bfaedb27bfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/91a3ac8c0028e2a7c4fd585888cbb92d0aead025",
-                "reference": "91a3ac8c0028e2a7c4fd585888cbb92d0aead025",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/938b1794ecd4d449f8e37312879e3bfaedb27bfd",
+                "reference": "938b1794ecd4d449f8e37312879e3bfaedb27bfd",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-02T03:31:48+00:00"
+            "time": "2018-03-02T04:15:40+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2263,16 +2263,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "36d5b41e7d4e1ccf0370f6babe966c08ef0a1488"
+                "reference": "555c8dbe0ae9e561740451eabdbed2cc554b6a51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/36d5b41e7d4e1ccf0370f6babe966c08ef0a1488",
-                "reference": "36d5b41e7d4e1ccf0370f6babe966c08ef0a1488",
+                "url": "https://api.github.com/repos/symfony/console/zipball/555c8dbe0ae9e561740451eabdbed2cc554b6a51",
+                "reference": "555c8dbe0ae9e561740451eabdbed2cc554b6a51",
                 "shasum": ""
             },
             "require": {
@@ -2327,20 +2327,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-29T09:06:29+00:00"
+            "time": "2018-02-26T15:55:47+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "760e47a4ee64b4c48f4b30017011e09d4c0f05ed"
+                "reference": "5d2d655b2c72fc4d9bf7e9bf14f72a447b940f21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/760e47a4ee64b4c48f4b30017011e09d4c0f05ed",
-                "reference": "760e47a4ee64b4c48f4b30017011e09d4c0f05ed",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/5d2d655b2c72fc4d9bf7e9bf14f72a447b940f21",
+                "reference": "5d2d655b2c72fc4d9bf7e9bf14f72a447b940f21",
                 "shasum": ""
             },
             "require": {
@@ -2376,20 +2376,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:38:00+00:00"
+            "time": "2018-02-22T10:50:29+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "8b08180f2b7ccb41062366b9ad91fbc4f1af8601"
+                "reference": "552e244df10237f845a94fd64b194f848805e34b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/8b08180f2b7ccb41062366b9ad91fbc4f1af8601",
-                "reference": "8b08180f2b7ccb41062366b9ad91fbc4f1af8601",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/552e244df10237f845a94fd64b194f848805e34b",
+                "reference": "552e244df10237f845a94fd64b194f848805e34b",
                 "shasum": ""
             },
             "require": {
@@ -2425,7 +2425,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:38:00+00:00"
+            "time": "2018-02-11T17:17:44+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2488,16 +2488,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "e1712002d81de6f39f854bc5bbd9e9f4bb6345b4"
+                "reference": "6ed08502a7c9559da8e60ea343bdbd19c3350b3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/e1712002d81de6f39f854bc5bbd9e9f4bb6345b4",
-                "reference": "e1712002d81de6f39f854bc5bbd9e9f4bb6345b4",
+                "url": "https://api.github.com/repos/symfony/process/zipball/6ed08502a7c9559da8e60ea343bdbd19c3350b3e",
+                "reference": "6ed08502a7c9559da8e60ea343bdbd19c3350b3e",
                 "shasum": ""
             },
             "require": {
@@ -2533,20 +2533,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-29T09:06:29+00:00"
+            "time": "2018-02-19T12:18:43+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ffc60bda1d4a00ec0b32eeabf39dc017bf480028"
+                "reference": "de5f125ea39de846b90b313b2cfb031a0152d223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ffc60bda1d4a00ec0b32eeabf39dc017bf480028",
-                "reference": "ffc60bda1d4a00ec0b32eeabf39dc017bf480028",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/de5f125ea39de846b90b313b2cfb031a0152d223",
+                "reference": "de5f125ea39de846b90b313b2cfb031a0152d223",
                 "shasum": ""
             },
             "require": {
@@ -2591,7 +2591,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-21T19:06:11+00:00"
+            "time": "2018-02-19T20:08:53+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -4131,25 +4131,25 @@
         },
         {
             "name": "zendframework/zend-mail",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-mail.git",
-                "reference": "248230940ab1453b2a532a8fde76c5a6470d7aad"
+                "reference": "067248425f285dec0bdb74256a8f67f9092f115e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/248230940ab1453b2a532a8fde76c5a6470d7aad",
-                "reference": "248230940ab1453b2a532a8fde76c5a6470d7aad",
+                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/067248425f285dec0bdb74256a8f67f9092f115e",
+                "reference": "067248425f285dec0bdb74256a8f67f9092f115e",
                 "shasum": ""
             },
             "require": {
                 "ext-iconv": "*",
-                "php": "^7.0 || ^5.6",
+                "php": "^7.1",
                 "zendframework/zend-loader": "^2.5",
                 "zendframework/zend-mime": "^2.5",
                 "zendframework/zend-stdlib": "^2.7 || ^3.0",
-                "zendframework/zend-validator": "^2.6"
+                "zendframework/zend-validator": "^2.10.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.0.8 || ^5.7.15",
@@ -4189,7 +4189,7 @@
                 "mail",
                 "zf2"
             ],
-            "time": "2017-06-08T20:03:58+00:00"
+            "time": "2018-03-01T18:57:00+00:00"
         },
         {
             "name": "zendframework/zend-math",
