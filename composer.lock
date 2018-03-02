@@ -625,16 +625,16 @@
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v2.3.3",
+            "version": "v2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "019d665356d4d6bdfaec7cb5e2d109f560c3a803"
+                "reference": "fbb2bc0a07cad5eb8084a6fe8a6aedb187bf707b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/019d665356d4d6bdfaec7cb5e2d109f560c3a803",
-                "reference": "019d665356d4d6bdfaec7cb5e2d109f560c3a803",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/fbb2bc0a07cad5eb8084a6fe8a6aedb187bf707b",
+                "reference": "fbb2bc0a07cad5eb8084a6fe8a6aedb187bf707b",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-02T04:16:56+00:00"
+            "time": "2018-03-02T05:36:34+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
