@@ -625,16 +625,16 @@
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v2.3.4",
+            "version": "v2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "fbb2bc0a07cad5eb8084a6fe8a6aedb187bf707b"
+                "reference": "fbcbf570baaa59a6a52acc8f042068bb3c6c9fed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/fbb2bc0a07cad5eb8084a6fe8a6aedb187bf707b",
-                "reference": "fbb2bc0a07cad5eb8084a6fe8a6aedb187bf707b",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/fbcbf570baaa59a6a52acc8f042068bb3c6c9fed",
+                "reference": "fbcbf570baaa59a6a52acc8f042068bb3c6c9fed",
                 "shasum": ""
             },
             "require": {
@@ -669,20 +669,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-02T05:36:34+00:00"
+            "time": "2018-03-05T08:01:32+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.3.7",
+            "version": "v2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "11ac948d961aa65d2f6455681b4deaac26011a57"
+                "reference": "61d5684ed348e04341e8029ced91be595686c832"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/11ac948d961aa65d2f6455681b4deaac26011a57",
-                "reference": "11ac948d961aa65d2f6455681b4deaac26011a57",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/61d5684ed348e04341e8029ced91be595686c832",
+                "reference": "61d5684ed348e04341e8029ced91be595686c832",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-02T08:11:45+00:00"
+            "time": "2018-03-05T08:12:53+00:00"
         },
         {
             "name": "myclabs/deep-copy",
