@@ -25,5 +25,8 @@
         "melisplatform/melis-composerdeploy": "^2.3",
         "melisplatform/melis-core": "^2.3",
         "justinrainbow/json-schema": "5.2.1"
+    },
+    "scripts": {
+      "post-update-cmd": "MelisDbDeploy\\DbDeployOnComposerUpdate::postUpdate"
     }
 }
