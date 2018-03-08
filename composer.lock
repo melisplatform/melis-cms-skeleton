@@ -567,16 +567,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v2.3.1",
+            "version": "v2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "a01596fca77ee4e304b1447205ba466e2319c072"
+                "reference": "301333a9a957ca878ecb00610060e6778577d5d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/a01596fca77ee4e304b1447205ba466e2319c072",
-                "reference": "a01596fca77ee4e304b1447205ba466e2319c072",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/301333a9a957ca878ecb00610060e6778577d5d3",
+                "reference": "301333a9a957ca878ecb00610060e6778577d5d3",
                 "shasum": ""
             },
             "require": {
@@ -621,7 +621,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-02-27T10:56:41+00:00"
+            "time": "2018-03-08T05:48:50+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -673,16 +673,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.3.10",
+            "version": "v2.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "50c0544e503540efe6b08ff6774bc31e6847e09a"
+                "reference": "528004e492ffa5f946d53d1b9667452b74e293e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/50c0544e503540efe6b08ff6774bc31e6847e09a",
-                "reference": "50c0544e503540efe6b08ff6774bc31e6847e09a",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/528004e492ffa5f946d53d1b9667452b74e293e9",
+                "reference": "528004e492ffa5f946d53d1b9667452b74e293e9",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-06T10:04:07+00:00"
+            "time": "2018-03-08T04:56:14+00:00"
         },
         {
             "name": "myclabs/deep-copy",
