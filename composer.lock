@@ -567,16 +567,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v2.3.3",
+            "version": "v2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "301333a9a957ca878ecb00610060e6778577d5d3"
+                "reference": "e06dea54eb35ef632120f967b1eca4e882493335"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/301333a9a957ca878ecb00610060e6778577d5d3",
-                "reference": "301333a9a957ca878ecb00610060e6778577d5d3",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/e06dea54eb35ef632120f967b1eca4e882493335",
+                "reference": "e06dea54eb35ef632120f967b1eca4e882493335",
                 "shasum": ""
             },
             "require": {
@@ -594,7 +594,9 @@
             "type": "melisplatform-module",
             "extra": {
                 "module-name": "MelisCore",
-                "dbdeploy": true
+                "dbdeploy": true,
+                "melis-site": false,
+                "melis-module-category": "core"
             },
             "autoload": {
                 "psr-4": {
@@ -621,7 +623,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-08T05:48:50+00:00"
+            "time": "2018-03-16T05:34:17+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -673,16 +675,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.3.12",
+            "version": "v2.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "748995416df04a6056696d30246e9e466b5a4705"
+                "reference": "5d3a96ddbd533e9e7514461307f13a7674d3ad31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/748995416df04a6056696d30246e9e466b5a4705",
-                "reference": "748995416df04a6056696d30246e9e466b5a4705",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/5d3a96ddbd533e9e7514461307f13a7674d3ad31",
+                "reference": "5d3a96ddbd533e9e7514461307f13a7674d3ad31",
                 "shasum": ""
             },
             "require": {
@@ -697,7 +699,9 @@
             },
             "type": "melisplatform-module",
             "extra": {
-                "module-name": "MelisInstaller"
+                "module-name": "MelisInstaller",
+                "melis-site": false,
+                "melis-module-category": "core"
             },
             "autoload": {
                 "psr-4": {
@@ -724,7 +728,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-03-08T10:36:19+00:00"
+            "time": "2018-03-19T03:46:49+00:00"
         },
         {
             "name": "myclabs/deep-copy",
