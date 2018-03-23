@@ -675,6 +675,7 @@
         },
         {
             "name": "melisplatform/melis-installer",
+
             "version": "v2.3.14",
             "source": {
                 "type": "git",
@@ -685,6 +686,17 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/a56c4c2bf31baee72f964264d944822cf0d607a2",
                 "reference": "a56c4c2bf31baee72f964264d944822cf0d607a2",
+
+            "version": "v2.3.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/melisplatform/melis-installer.git",
+                "reference": "5d3a96ddbd533e9e7514461307f13a7674d3ad31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/5d3a96ddbd533e9e7514461307f13a7674d3ad31",
+                "reference": "5d3a96ddbd533e9e7514461307f13a7674d3ad31",
                 "shasum": ""
             },
             "require": {
