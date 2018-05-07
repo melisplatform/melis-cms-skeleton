@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e80dd80471a6b437c710d4ccc94e000",
+    "content-hash": "4c552508a9c50201a783e93a2976d9c8",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -572,16 +572,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v2.4.1",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "e13f29c6aae016e8554498241c4d37f5e72a82b9"
+                "reference": "b7a7758d09ba54ab86cd8f2ed8174568fdb52934"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/e13f29c6aae016e8554498241c4d37f5e72a82b9",
-                "reference": "e13f29c6aae016e8554498241c4d37f5e72a82b9",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/b7a7758d09ba54ab86cd8f2ed8174568fdb52934",
+                "reference": "b7a7758d09ba54ab86cd8f2ed8174568fdb52934",
                 "shasum": ""
             },
             "require": {
@@ -590,7 +590,7 @@
                 "ext-openssl": "*",
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
-                "melisplatform/melis-asset-manager": "^2.3",
+                "melisplatform/melis-asset-manager": "^2.4",
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
@@ -628,7 +628,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-05-04T11:30:11+00:00"
+            "time": "2018-05-04T12:09:56+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -782,27 +782,27 @@
         },
         {
             "name": "ocramius/package-versions",
-            "version": "1.3.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ocramius/PackageVersions.git",
-                "reference": "4489d5002c49d55576fa0ba786f42dbb009be46f"
+                "reference": "ad8a245decad4897cc6b432743913dad0d69753c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/4489d5002c49d55576fa0ba786f42dbb009be46f",
-                "reference": "4489d5002c49d55576fa0ba786f42dbb009be46f",
+                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/ad8a245decad4897cc6b432743913dad0d69753c",
+                "reference": "ad8a245decad4897cc6b432743913dad0d69753c",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0.0",
-                "php": "^7.1.0"
+                "composer-plugin-api": "^1.0",
+                "php": "~7.0"
             },
             "require-dev": {
-                "composer/composer": "^1.6.3",
+                "composer/composer": "^1.3",
                 "ext-zip": "*",
-                "infection/infection": "^0.7.1",
-                "phpunit/phpunit": "^7.0.0"
+                "humbug/humbug": "dev-master",
+                "phpunit/phpunit": "^6.4"
             },
             "type": "composer-plugin",
             "extra": {
@@ -827,7 +827,7 @@
                 }
             ],
             "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
-            "time": "2018-02-05T13:05:30+00:00"
+            "time": "2017-11-24T11:07:03+00:00"
         },
         {
             "name": "phing/phing",
