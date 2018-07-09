@@ -41,44 +41,37 @@ return array(
 			),
 		),
 	),
-	'interface_ordering' => array(
-		'meliscore_header' => array(
-            'melismessenger_tool_header_messages',
-        ),
-		'meliscore_leftmenu' => array(
-			'meliscore_leftmenu_identity',
-			'meliscore_leftmenu_dashboard',
-			'meliscms_sitetree',
-			'meliscore_toolstree',
-			'meliscore_footer',
-		),
-		'meliscore_toolstree' => array(
-		    'meliscore_tool_admin_module' => array(
-		         'meliscore_tool_user_module_management'  
-		    ),
-			'meliscore_tool_admin_section' => array(
-				'meliscore_tool_user',
-			),
-			'meliscms_tools_section' => array(
-			    'meliscms_tool_site',
-				'meliscms_tool_templates',
-			    'meliscms_tool_platform_ids'
-			),
-			'melisprospects_tools_section' => array(
-				'melistoolprospects_tool_prospects',
-			), 
-		),
-		'meliscore_center_dashboard' => array(
-			'meliscore_dashboard_recent_activity',
-		    'meliscms_dashboard_pages_indicators',
-			'melistoolprospects_dashboard_statistics',
-			'meliscore_dashboard_calendar',
-		),
-		'meliscore_dashboard_recent_activity' => array(
-			'melispagehistoric_dashboard_recent_activity_pages',
-			'meliscore_dashboard_recent_activity_users',
-		),
+    'interface_ordering' => array(
+	'meliscore_header' => array(
+	    'melismessenger_tool_header_messages',
 	),
+	'meliscore_leftmenu' => array(
+	    'meliscore_leftmenu_identity',
+	    'meliscore_leftmenu_dashboard',
+	    'meliscms_sitetree',
+	    'meliscore_toolstree',
+	    'meliscore_footer',
+	),
+	'meliscore_toolstree_section' => array(
+	    'meliscore_tool_admin_module' => array(
+		'meliscore_tool_user_module_management'
+	    ),
+	    'meliscore_tool_admin_section' => array(
+		'meliscore_tool_user',
+	    ),
+	),
+	'meliscore_center_dashboard' => array(
+	    'meliscore_dashboard_recent_activity',
+	    'meliscms_dashboard_pages_indicators',
+	    'melistoolprospects_dashboard_statistics',
+	    'melissb_dashboard_workflow',
+	    'meliscore_dashboard_calendar',
+	),
+	'meliscore_dashboard_recent_activity' => array(
+	    'melispagehistoric_dashboard_recent_activity_pages',
+	    'meliscore_dashboard_recent_activity_users',
+	),
+    ),
 	'interface_disable' => array(
 	)
 );
