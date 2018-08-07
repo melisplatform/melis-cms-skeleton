@@ -724,16 +724,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "09994702a7fed5533d7046808a48527821bd3c6c"
+                "reference": "3887aff4a0642245cff642952d1eddd06a21e497"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/09994702a7fed5533d7046808a48527821bd3c6c",
-                "reference": "09994702a7fed5533d7046808a48527821bd3c6c",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/3887aff4a0642245cff642952d1eddd06a21e497",
+                "reference": "3887aff4a0642245cff642952d1eddd06a21e497",
                 "shasum": ""
             },
             "require": {
@@ -777,7 +777,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-08-07T05:31:26+00:00"
+            "time": "2018-08-07T08:56:37+00:00"
         },
         {
             "name": "myclabs/deep-copy",
