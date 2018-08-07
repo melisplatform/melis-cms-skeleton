@@ -61,9 +61,6 @@ return array(
                 'meliscms_tool_templates',
                 'meliscms_tool_platform_ids'
             ),
-            'melisprospects_tools_section' => array(
-                'melistoolprospects_tool_prospects',
-            ),
         ),
         'meliscore_center_dashboard' => array(
             'meliscore_dashboard_recent_activity',
