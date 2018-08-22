@@ -14,6 +14,9 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__ . parse_url($_SERVER['RE
 // Setup autoloading
 require 'init_autoloader.php';
 
+// Warning message handler
+require  'warning-handler.php';
+
 // define('HTTP_ROOT', dirname(__DIR__) . '/public/');
 
 // var_dump(HTTP_ROOT); die();
