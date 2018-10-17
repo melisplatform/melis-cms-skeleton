@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7641b0c756a267e0945010845e46e515",
+    "content-hash": "ed805c5c9cac56e1fc0e6e671a955b89",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -567,16 +567,16 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v2.3.2",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "f8f668f7a2d1afe372d29e909285cafadfd02caa"
+                "reference": "a158946de4da7940b464e2a520c8ea043f148d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/f8f668f7a2d1afe372d29e909285cafadfd02caa",
-                "reference": "f8f668f7a2d1afe372d29e909285cafadfd02caa",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/a158946de4da7940b464e2a520c8ea043f148d28",
+                "reference": "a158946de4da7940b464e2a520c8ea043f148d28",
                 "shasum": ""
             },
             "require": {
@@ -586,7 +586,7 @@
             },
             "require-dev": {
                 "php-mock/php-mock": "~2.0.0",
-                "phpunit/phpunit": "~5.7",
+                "phpunit/phpunit": "^7.0",
                 "psy/psysh": "@stable",
                 "symfony/console": "~3.4|~4.0"
             },
@@ -612,7 +612,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-05-03T08:21:23+00:00"
+            "time": "2018-10-17T08:18:03+00:00"
         },
         {
             "name": "melisplatform/melis-core",
