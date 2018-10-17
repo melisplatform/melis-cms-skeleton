@@ -1,34 +1,34 @@
 {
-    "name": "melisplatform/melis-cms-skeleton",
-    "description": "Melis Platform CMS Skeleton",
-    "type": "project",
-    "license": "OSL-3.0",
-    "require": {
-        "php": "^7.0",
-        "hirak/prestissimo": "*",
-        "ext-openssl": "*",
-        "ext-json": "*",
-        "ext-pdo_mysql": "*",
-        "ext-intl": "*",
-	"doctrine/instantiator": "1.0.5",
-	"myclabs/deep-copy": "1.7.0",
-	"symfony/console": "3.4.5",
-	"symfony/filesystem": "3.4.5",
-	"symfony/finder": "3.4.5",
-	"symfony/process": "3.4.5",
-	"symfony/yaml": "3.4.5",
-	"symfony/debug": "3.4.5",
-        "ocramius/package-versions": "1.2.0",
-	"zendframework/zend-mail": "2.8.0",
-        "zendframework/zendframework": "2.5.3",
-        "melisplatform/melis-asset-manager": "^2.3",
-        "melisplatform/melis-installer": "^3.0",
-        "melisplatform/melis-dbdeploy": "^3.0",
-        "melisplatform/melis-composerdeploy": "^2.3",
-        "melisplatform/melis-core": "^3.0",
-        "justinrainbow/json-schema": "5.2.1"
-    },
-    "scripts": {
-      "post-update-cmd": "MelisDbDeploy\\DbDeployOnComposerUpdate::postUpdate"
-    }
+  "name": "melisplatform/melis-cms-skeleton",
+  "description": "Melis Platform CMS Skeleton",
+  "type": "project",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "^7.0",
+    "hirak/prestissimo": "*",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-pdo_mysql": "*",
+    "ext-intl": "*",
+    "doctrine/instantiator": "1.0.5",
+    "myclabs/deep-copy": "1.7.0",
+    "symfony/console": "3.4.5",
+    "symfony/filesystem": "3.4.5",
+    "symfony/finder": "3.4.5",
+    "symfony/process": "3.4.5",
+    "symfony/yaml": "3.4.5",
+    "symfony/debug": "3.4.5",
+    "ocramius/package-versions": "1.2.0",
+    "zendframework/zend-mail": "2.8.0",
+    "zendframework/zendframework": "2.5.3",
+    "melisplatform/melis-asset-manager": "^2.3",
+    "melisplatform/melis-installer": "^3.0",
+    "melisplatform/melis-dbdeploy": "^3.0",
+    "melisplatform/melis-composerdeploy": "^2.3",
+    "melisplatform/melis-core": "^3.0",
+    "justinrainbow/json-schema": "5.2.1"
+  },
+  "scripts": {
+    "post-update-cmd": "MelisDbDeploy\\DbDeployOnComposerUpdate::postUpdate"
+  }
 }

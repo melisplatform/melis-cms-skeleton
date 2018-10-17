@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e33c049e1dce7209666ec2c96417b65c",
+    "content-hash": "7641b0c756a267e0945010845e46e515",
     "packages": [
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169"
+                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/d2c0a83b7533d6912e8d516756ebd34f893e9169",
-                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/46afded9720f40b9dc63542af4e3e43a1177acb0",
+                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0",
                 "shasum": ""
             },
             "require": {
@@ -60,20 +60,20 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-03-29T19:57:20+00:00"
+            "time": "2018-08-08T08:57:40+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "5d9311d4555787c8a57fea15f82471499aedf712"
+                "reference": "576aab9b5abb2ed11a1c52353a759363216a4ad2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/5d9311d4555787c8a57fea15f82471499aedf712",
-                "reference": "5d9311d4555787c8a57fea15f82471499aedf712",
+                "url": "https://api.github.com/repos/composer/composer/zipball/576aab9b5abb2ed11a1c52353a759363216a4ad2",
+                "reference": "576aab9b5abb2ed11a1c52353a759363216a4ad2",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2018-08-07T07:39:23+00:00"
+            "time": "2018-08-16T14:57:12+00:00"
         },
         {
             "name": "composer/semver",
@@ -267,16 +267,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.1.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "c919dc6c62e221fc6406f861ea13433c0aa24f08"
+                "reference": "b8e9745fb9b06ea6664d8872c4505fb16df4611c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/c919dc6c62e221fc6406f861ea13433c0aa24f08",
-                "reference": "c919dc6c62e221fc6406f861ea13433c0aa24f08",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/b8e9745fb9b06ea6664d8872c4505fb16df4611c",
+                "reference": "b8e9745fb9b06ea6664d8872c4505fb16df4611c",
                 "shasum": ""
             },
             "require": {
@@ -307,7 +307,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2018-04-11T15:42:36+00:00"
+            "time": "2018-08-31T19:07:57+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -396,16 +396,16 @@
         },
         {
             "name": "hirak/prestissimo",
-            "version": "0.3.7",
+            "version": "0.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hirak/prestissimo.git",
-                "reference": "45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496"
+                "reference": "7cc32689810e604f95f9eadb3c5074135aa872f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hirak/prestissimo/zipball/45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496",
-                "reference": "45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496",
+                "url": "https://api.github.com/repos/hirak/prestissimo/zipball/7cc32689810e604f95f9eadb3c5074135aa872f1",
+                "reference": "7cc32689810e604f95f9eadb3c5074135aa872f1",
                 "shasum": ""
             },
             "require": {
@@ -443,7 +443,7 @@
                 "parallel",
                 "speedup"
             ],
-            "time": "2017-05-27T04:45:45+00:00"
+            "time": "2018-08-21T22:35:06+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -514,16 +514,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "206c003eda4a3b542a21334e1c7c43fffa968df2"
+                "reference": "809311aae7fe328accc13b66d31bd6c950c2a630"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/206c003eda4a3b542a21334e1c7c43fffa968df2",
-                "reference": "206c003eda4a3b542a21334e1c7c43fffa968df2",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/809311aae7fe328accc13b66d31bd6c950c2a630",
+                "reference": "809311aae7fe328accc13b66d31bd6c950c2a630",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-07-31T08:30:58+00:00"
+            "time": "2018-09-04T05:48:20+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -616,16 +616,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v2.5.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "586f1a28e15b1a820a2291e52d6a0efe2286663e"
+                "reference": "318768d84479039f9c7e4d860d2eba85c4ff7c15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/586f1a28e15b1a820a2291e52d6a0efe2286663e",
-                "reference": "586f1a28e15b1a820a2291e52d6a0efe2286663e",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/318768d84479039f9c7e4d860d2eba85c4ff7c15",
+                "reference": "318768d84479039f9c7e4d860d2eba85c4ff7c15",
                 "shasum": ""
             },
             "require": {
@@ -635,7 +635,7 @@
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
                 "melisplatform/melis-asset-manager": "^2.4",
-                "php": "^5.5 || ^7.0"
+                "php": "^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.8"
@@ -672,25 +672,25 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-08-02T07:05:45+00:00"
+            "time": "2018-10-17T04:34:20+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v2.4.0",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "e51f7ea5fe0387ba362b296071f1e15c58e4e3b3"
+                "reference": "78819942e9b4ea830ab2af8b264e67a69c538a9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/e51f7ea5fe0387ba362b296071f1e15c58e4e3b3",
-                "reference": "e51f7ea5fe0387ba362b296071f1e15c58e4e3b3",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/78819942e9b4ea830ab2af8b264e67a69c538a9e",
+                "reference": "78819942e9b4ea830ab2af8b264e67a69c538a9e",
                 "shasum": ""
             },
             "require": {
                 "phing/phing": "~2.16.0",
-                "php": ">=5.4",
+                "php": "^7.0",
                 "zendframework/zendframework": "~2.5.3"
             },
             "require-dev": {
@@ -720,20 +720,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-05-04T09:54:41+00:00"
+            "time": "2018-10-17T05:17:36+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v2.5.3",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "69b5548ca9983c5a99af4243afc07f175712c0a6"
+                "reference": "c65716a21e156289333c4f1365c053a853f59003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/69b5548ca9983c5a99af4243afc07f175712c0a6",
-                "reference": "69b5548ca9983c5a99af4243afc07f175712c0a6",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/c65716a21e156289333c4f1365c053a853f59003",
+                "reference": "c65716a21e156289333c4f1365c053a853f59003",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +741,7 @@
                 "ext-openssl": "*",
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
-                "php": "^5.5 || ^7.0"
+                "php": "^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.8"
@@ -777,7 +777,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-08-08T04:47:43+00:00"
+            "time": "2018-10-17T05:30:17+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3471,16 +3471,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.8.4",
+            "version": "1.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba"
+                "reference": "20da13beba0dde8fb648be3cc19765732790f46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba",
-                "reference": "736ffa7c2bfa4a60e8a10acb316fa2ac456c5fba",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/20da13beba0dde8fb648be3cc19765732790f46e",
+                "reference": "20da13beba0dde8fb648be3cc19765732790f46e",
                 "shasum": ""
             },
             "require": {
@@ -3493,6 +3493,7 @@
             "require-dev": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
+                "php-http/psr7-integration-tests": "dev-master",
                 "phpunit/phpunit": "^5.7.16 || ^6.0.8 || ^7.2.7",
                 "zendframework/zend-coding-standard": "~1.0"
             },
@@ -3530,7 +3531,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-08-01T13:47:49+00:00"
+            "time": "2018-09-05T19:29:37+00:00"
         },
         {
             "name": "zendframework/zend-dom",
@@ -3732,16 +3733,16 @@
         },
         {
             "name": "zendframework/zend-file",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-file.git",
-                "reference": "4b2ecb77a9123a03cc648893b63e38b3735f192c"
+                "reference": "d267733fbc3a15c9ca82708cf6e634e2fabb29e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-file/zipball/4b2ecb77a9123a03cc648893b63e38b3735f192c",
-                "reference": "4b2ecb77a9123a03cc648893b63e38b3735f192c",
+                "url": "https://api.github.com/repos/zendframework/zend-file/zipball/d267733fbc3a15c9ca82708cf6e634e2fabb29e7",
+                "reference": "d267733fbc3a15c9ca82708cf6e634e2fabb29e7",
                 "shasum": ""
             },
             "require": {
@@ -3785,7 +3786,7 @@
                 "file",
                 "zf"
             ],
-            "time": "2018-05-01T22:03:07+00:00"
+            "time": "2018-10-15T08:11:50+00:00"
         },
         {
             "name": "zendframework/zend-filter",
@@ -3930,16 +3931,16 @@
         },
         {
             "name": "zendframework/zend-http",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-http.git",
-                "reference": "44197164a270259116162a442f639085ea24094a"
+                "reference": "2c8aed3d25522618573194e7cc51351f8cd4a45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/44197164a270259116162a442f639085ea24094a",
-                "reference": "44197164a270259116162a442f639085ea24094a",
+                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/2c8aed3d25522618573194e7cc51351f8cd4a45b",
+                "reference": "2c8aed3d25522618573194e7cc51351f8cd4a45b",
                 "shasum": ""
             },
             "require": {
@@ -3981,7 +3982,7 @@
                 "zend",
                 "zf"
             ],
-            "time": "2018-08-01T13:50:48+00:00"
+            "time": "2018-08-13T18:47:03+00:00"
         },
         {
             "name": "zendframework/zend-hydrator",
@@ -6027,7 +6028,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^5.5 || ^7.0",
+        "php": "^7.0",
         "ext-openssl": "*",
         "ext-json": "*",
         "ext-pdo_mysql": "*",
