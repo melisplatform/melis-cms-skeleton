@@ -25,6 +25,7 @@
     "melisplatform/melis-installer": "^3.0",
     "melisplatform/melis-dbdeploy": "^3.0",
     "melisplatform/melis-composerdeploy": "^3.0",
+    "melisplatform/melis-marketplace": "^3.0",
     "melisplatform/melis-core": "^3.0",
     "justinrainbow/json-schema": "5.2.1"
   },
