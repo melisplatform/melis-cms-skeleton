@@ -567,16 +567,16 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "5485b7c4eeb6156b1a4a725f6910607fe75140a5"
+                "reference": "6712bd74be419003048909821a07bafe4ca7ce52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/5485b7c4eeb6156b1a4a725f6910607fe75140a5",
-                "reference": "5485b7c4eeb6156b1a4a725f6910607fe75140a5",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/6712bd74be419003048909821a07bafe4ca7ce52",
+                "reference": "6712bd74be419003048909821a07bafe4ca7ce52",
                 "shasum": ""
             },
             "require": {
@@ -612,7 +612,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-22T14:11:17+00:00"
+            "time": "2019-02-22T14:56:44+00:00"
         },
         {
             "name": "melisplatform/melis-core",
