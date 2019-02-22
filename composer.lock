@@ -567,16 +567,16 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "132cb2d8f734c9a3596eb83492d65995b6ca8962"
+                "reference": "5485b7c4eeb6156b1a4a725f6910607fe75140a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/132cb2d8f734c9a3596eb83492d65995b6ca8962",
-                "reference": "132cb2d8f734c9a3596eb83492d65995b6ca8962",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/5485b7c4eeb6156b1a4a725f6910607fe75140a5",
+                "reference": "5485b7c4eeb6156b1a4a725f6910607fe75140a5",
                 "shasum": ""
             },
             "require": {
@@ -612,20 +612,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-01-16T05:16:40+00:00"
+            "time": "2019-02-22T14:11:17+00:00"
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.0.15",
+            "version": "v3.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "940d639302cc5b19dfe5be0cff8002ca5a977e89"
+                "reference": "944175fb9b3c6cfb6e6e96c6c8b83812e7120fc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/940d639302cc5b19dfe5be0cff8002ca5a977e89",
-                "reference": "940d639302cc5b19dfe5be0cff8002ca5a977e89",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/944175fb9b3c6cfb6e6e96c6c8b83812e7120fc7",
+                "reference": "944175fb9b3c6cfb6e6e96c6c8b83812e7120fc7",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +672,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-22T09:58:21+00:00"
+            "time": "2019-02-22T14:13:28+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
