@@ -514,16 +514,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "b1fddecde69c219c54c7360dab93a6bd562815b1"
+                "reference": "58103de99ba6d12e0405cd3c3f6d13e508fff38d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/b1fddecde69c219c54c7360dab93a6bd562815b1",
-                "reference": "b1fddecde69c219c54c7360dab93a6bd562815b1",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/58103de99ba6d12e0405cd3c3f6d13e508fff38d",
+                "reference": "58103de99ba6d12e0405cd3c3f6d13e508fff38d",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-21T09:44:49+00:00"
+            "time": "2019-02-22T11:02:40+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -724,16 +724,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.0.6",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "4b248b6e405d8de35cb5cffe84ab0173e73623f3"
+                "reference": "551c5e82b9af9e13e35f0dc5cae7e907caf8fc1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/4b248b6e405d8de35cb5cffe84ab0173e73623f3",
-                "reference": "4b248b6e405d8de35cb5cffe84ab0173e73623f3",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/551c5e82b9af9e13e35f0dc5cae7e907caf8fc1a",
+                "reference": "551c5e82b9af9e13e35f0dc5cae7e907caf8fc1a",
                 "shasum": ""
             },
             "require": {
@@ -777,7 +777,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-15T07:19:36+00:00"
+            "time": "2019-02-22T11:40:18+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
