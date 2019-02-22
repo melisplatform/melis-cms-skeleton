@@ -724,16 +724,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.0.11",
+            "version": "v3.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "34ae3d36e04bbeabaa02ecc4054d3ebc52223215"
+                "reference": "8c4af508898239fc50651c350fcb6550173e04f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/34ae3d36e04bbeabaa02ecc4054d3ebc52223215",
-                "reference": "34ae3d36e04bbeabaa02ecc4054d3ebc52223215",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/8c4af508898239fc50651c350fcb6550173e04f9",
+                "reference": "8c4af508898239fc50651c350fcb6550173e04f9",
                 "shasum": ""
             },
             "require": {
@@ -777,7 +777,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-22T12:15:18+00:00"
+            "time": "2019-02-22T17:25:43+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
