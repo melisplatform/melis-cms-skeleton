@@ -781,16 +781,16 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "19d1867b5e14e0e9b375d744acde783b598be332"
+                "reference": "f47f3629b58b92033d610fa9313d8a8dd5cb30cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/19d1867b5e14e0e9b375d744acde783b598be332",
-                "reference": "19d1867b5e14e0e9b375d744acde783b598be332",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/f47f3629b58b92033d610fa9313d8a8dd5cb30cf",
+                "reference": "f47f3629b58b92033d610fa9313d8a8dd5cb30cf",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-22T07:37:56+00:00"
+            "time": "2019-02-22T16:36:43+00:00"
         },
         {
             "name": "myclabs/deep-copy",
