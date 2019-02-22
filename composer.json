@@ -21,7 +21,7 @@
     "ocramius/package-versions": "1.2.0",
     "zendframework/zend-mail": "^2.8.0",
     "zendframework/zendframework": "2.5.3",
-    "melisplatform/melis-asset-manager": "^2.3",
+    "melisplatform/melis-asset-manager": "^3.0",
     "melisplatform/melis-installer": "^3.0",
     "melisplatform/melis-dbdeploy": "^3.0",
     "melisplatform/melis-composerdeploy": "^3.0",
