@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "525b4d78b44da739a3317482202db002",
+    "content-hash": "43888265bfeef05f4b0306d31a36ad8e",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -514,16 +514,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v2.5.1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "809311aae7fe328accc13b66d31bd6c950c2a630"
+                "reference": "b1fddecde69c219c54c7360dab93a6bd562815b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/809311aae7fe328accc13b66d31bd6c950c2a630",
-                "reference": "809311aae7fe328accc13b66d31bd6c950c2a630",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/b1fddecde69c219c54c7360dab93a6bd562815b1",
+                "reference": "b1fddecde69c219c54c7360dab93a6bd562815b1",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-09-04T05:48:20+00:00"
+            "time": "2019-02-21T09:44:49+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -616,16 +616,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.0.12",
+            "version": "v3.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "e63c9961676fe2a824fec4492590f2a2922bcee3"
+                "reference": "940d639302cc5b19dfe5be0cff8002ca5a977e89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/e63c9961676fe2a824fec4492590f2a2922bcee3",
-                "reference": "e63c9961676fe2a824fec4492590f2a2922bcee3",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/940d639302cc5b19dfe5be0cff8002ca5a977e89",
+                "reference": "940d639302cc5b19dfe5be0cff8002ca5a977e89",
                 "shasum": ""
             },
             "require": {
@@ -634,7 +634,7 @@
                 "ext-openssl": "*",
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
-                "melisplatform/melis-asset-manager": "^2.4",
+                "melisplatform/melis-asset-manager": "^3.0",
                 "php": "^7.0"
             },
             "require-dev": {
@@ -672,7 +672,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-18T09:59:30+00:00"
+            "time": "2019-02-22T09:58:21+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -781,16 +781,16 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.0.3",
+            "version": "v3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "cf400648758fdf883ff16695415087c1a6254064"
+                "reference": "19d1867b5e14e0e9b375d744acde783b598be332"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/cf400648758fdf883ff16695415087c1a6254064",
-                "reference": "cf400648758fdf883ff16695415087c1a6254064",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/19d1867b5e14e0e9b375d744acde783b598be332",
+                "reference": "19d1867b5e14e0e9b375d744acde783b598be332",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-14T10:37:30+00:00"
+            "time": "2019-02-22T07:37:56+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5916,16 +5916,16 @@
         },
         {
             "name": "zendframework/zend-view",
-            "version": "2.11.1",
+            "version": "2.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-view.git",
-                "reference": "0428d6b2a67c7058451394921c90c5576ac5b373"
+                "reference": "4f5cb653ed4c64bb8d9bf05b294300feb00c67f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/0428d6b2a67c7058451394921c90c5576ac5b373",
-                "reference": "0428d6b2a67c7058451394921c90c5576ac5b373",
+                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/4f5cb653ed4c64bb8d9bf05b294300feb00c67f2",
+                "reference": "4f5cb653ed4c64bb8d9bf05b294300feb00c67f2",
                 "shasum": ""
             },
             "require": {
@@ -5999,7 +5999,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2018-12-10T16:37:55+00:00"
+            "time": "2019-02-19T17:40:15+00:00"
         },
         {
             "name": "zendframework/zend-xmlrpc",
