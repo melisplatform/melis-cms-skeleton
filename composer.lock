@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "525b4d78b44da739a3317482202db002",
+    "content-hash": "43888265bfeef05f4b0306d31a36ad8e",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -514,16 +514,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v2.5.1",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "809311aae7fe328accc13b66d31bd6c950c2a630"
+                "reference": "58103de99ba6d12e0405cd3c3f6d13e508fff38d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/809311aae7fe328accc13b66d31bd6c950c2a630",
-                "reference": "809311aae7fe328accc13b66d31bd6c950c2a630",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/58103de99ba6d12e0405cd3c3f6d13e508fff38d",
+                "reference": "58103de99ba6d12e0405cd3c3f6d13e508fff38d",
                 "shasum": ""
             },
             "require": {
@@ -563,20 +563,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2018-09-04T05:48:20+00:00"
+            "time": "2019-02-22T11:02:40+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v3.0.1",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "132cb2d8f734c9a3596eb83492d65995b6ca8962"
+                "reference": "6712bd74be419003048909821a07bafe4ca7ce52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/132cb2d8f734c9a3596eb83492d65995b6ca8962",
-                "reference": "132cb2d8f734c9a3596eb83492d65995b6ca8962",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/6712bd74be419003048909821a07bafe4ca7ce52",
+                "reference": "6712bd74be419003048909821a07bafe4ca7ce52",
                 "shasum": ""
             },
             "require": {
@@ -612,20 +612,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-01-16T05:16:40+00:00"
+            "time": "2019-02-22T14:56:44+00:00"
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.0.12",
+            "version": "v3.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "e63c9961676fe2a824fec4492590f2a2922bcee3"
+                "reference": "7411d26ca42f488f166d18791224f87db608b819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/e63c9961676fe2a824fec4492590f2a2922bcee3",
-                "reference": "e63c9961676fe2a824fec4492590f2a2922bcee3",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/7411d26ca42f488f166d18791224f87db608b819",
+                "reference": "7411d26ca42f488f166d18791224f87db608b819",
                 "shasum": ""
             },
             "require": {
@@ -634,7 +634,7 @@
                 "ext-openssl": "*",
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
-                "melisplatform/melis-asset-manager": "^2.4",
+                "melisplatform/melis-asset-manager": "^3.0",
                 "php": "^7.0"
             },
             "require-dev": {
@@ -672,20 +672,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-18T09:59:30+00:00"
+            "time": "2019-03-04T06:15:31+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "6458303323b6bec4dd9d3ad054b3f37bfd027bbc"
+                "reference": "15a576302f3e87d6c77fccbb327c2c3f09af7db5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/6458303323b6bec4dd9d3ad054b3f37bfd027bbc",
-                "reference": "6458303323b6bec4dd9d3ad054b3f37bfd027bbc",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/15a576302f3e87d6c77fccbb327c2c3f09af7db5",
+                "reference": "15a576302f3e87d6c77fccbb327c2c3f09af7db5",
                 "shasum": ""
             },
             "require": {
@@ -720,20 +720,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-13T11:15:42+00:00"
+            "time": "2019-03-04T04:36:23+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.0.6",
+            "version": "v3.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "4b248b6e405d8de35cb5cffe84ab0173e73623f3"
+                "reference": "49497b8142027cd9b4c913d2cd3d48d0258a1a3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/4b248b6e405d8de35cb5cffe84ab0173e73623f3",
-                "reference": "4b248b6e405d8de35cb5cffe84ab0173e73623f3",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/49497b8142027cd9b4c913d2cd3d48d0258a1a3f",
+                "reference": "49497b8142027cd9b4c913d2cd3d48d0258a1a3f",
                 "shasum": ""
             },
             "require": {
@@ -777,20 +777,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-15T07:19:36+00:00"
+            "time": "2019-02-22T17:44:23+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.0.3",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "cf400648758fdf883ff16695415087c1a6254064"
+                "reference": "a61dd72ac0d0298e2b1369e8a2bafb1cb8ef12e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/cf400648758fdf883ff16695415087c1a6254064",
-                "reference": "cf400648758fdf883ff16695415087c1a6254064",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/a61dd72ac0d0298e2b1369e8a2bafb1cb8ef12e6",
+                "reference": "a61dd72ac0d0298e2b1369e8a2bafb1cb8ef12e6",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-02-14T10:37:30+00:00"
+            "time": "2019-03-04T04:46:02+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3484,16 +3484,16 @@
         },
         {
             "name": "zendframework/zend-db",
-            "version": "2.9.3",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-db.git",
-                "reference": "5b4f2c42f94c9f7f4b2f456a0ebe459fab12b3d9"
+                "reference": "77022f06f6ffd384fa86d22ab8d8bbdb925a1e8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-db/zipball/5b4f2c42f94c9f7f4b2f456a0ebe459fab12b3d9",
-                "reference": "5b4f2c42f94c9f7f4b2f456a0ebe459fab12b3d9",
+                "url": "https://api.github.com/repos/zendframework/zend-db/zipball/77022f06f6ffd384fa86d22ab8d8bbdb925a1e8e",
+                "reference": "77022f06f6ffd384fa86d22ab8d8bbdb925a1e8e",
                 "shasum": ""
             },
             "require": {
@@ -3504,7 +3504,7 @@
                 "phpunit/phpunit": "^5.7.25 || ^6.4.4",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-eventmanager": "^2.6.2 || ^3.0",
-                "zendframework/zend-hydrator": "^1.1 || ^2.1",
+                "zendframework/zend-hydrator": "^1.1 || ^2.1 || ^3.0",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3"
             },
             "suggest": {
@@ -3538,7 +3538,7 @@
                 "db",
                 "zf"
             ],
-            "time": "2018-04-09T13:21:36+00:00"
+            "time": "2019-02-25T11:37:45+00:00"
         },
         {
             "name": "zendframework/zend-debug",
@@ -5745,16 +5745,16 @@
         },
         {
             "name": "zendframework/zend-uri",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-uri.git",
-                "reference": "3b6463645c6766f78ce537c70cb4fdabee1e725f"
+                "reference": "b2785cd38fe379a784645449db86f21b7739b1ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-uri/zipball/3b6463645c6766f78ce537c70cb4fdabee1e725f",
-                "reference": "3b6463645c6766f78ce537c70cb4fdabee1e725f",
+                "url": "https://api.github.com/repos/zendframework/zend-uri/zipball/b2785cd38fe379a784645449db86f21b7739b1ee",
+                "reference": "b2785cd38fe379a784645449db86f21b7739b1ee",
                 "shasum": ""
             },
             "require": {
@@ -5769,8 +5769,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
+                    "dev-master": "2.7.x-dev",
+                    "dev-develop": "2.8.x-dev"
                 }
             },
             "autoload": {
@@ -5788,7 +5788,7 @@
                 "uri",
                 "zf"
             ],
-            "time": "2018-04-30T13:40:08+00:00"
+            "time": "2019-02-27T21:39:04+00:00"
         },
         {
             "name": "zendframework/zend-validator",
@@ -5916,16 +5916,16 @@
         },
         {
             "name": "zendframework/zend-view",
-            "version": "2.11.1",
+            "version": "2.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-view.git",
-                "reference": "0428d6b2a67c7058451394921c90c5576ac5b373"
+                "reference": "4f5cb653ed4c64bb8d9bf05b294300feb00c67f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/0428d6b2a67c7058451394921c90c5576ac5b373",
-                "reference": "0428d6b2a67c7058451394921c90c5576ac5b373",
+                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/4f5cb653ed4c64bb8d9bf05b294300feb00c67f2",
+                "reference": "4f5cb653ed4c64bb8d9bf05b294300feb00c67f2",
                 "shasum": ""
             },
             "require": {
@@ -5999,7 +5999,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2018-12-10T16:37:55+00:00"
+            "time": "2019-02-19T17:40:15+00:00"
         },
         {
             "name": "zendframework/zend-xmlrpc",
