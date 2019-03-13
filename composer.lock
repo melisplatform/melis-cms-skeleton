@@ -724,7 +724,7 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.0.13",
+            "version": "v3.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
