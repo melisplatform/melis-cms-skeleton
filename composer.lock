@@ -514,16 +514,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "786174e878f75ab9092c39fb975ba77efcb834ec"
+                "reference": "306041519cc0df18584aa53295c4d0075e24182e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/786174e878f75ab9092c39fb975ba77efcb834ec",
-                "reference": "786174e878f75ab9092c39fb975ba77efcb834ec",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/306041519cc0df18584aa53295c4d0075e24182e",
+                "reference": "306041519cc0df18584aa53295c4d0075e24182e",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-03-12T08:35:39+00:00"
+            "time": "2019-03-13T07:41:22+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -724,7 +724,7 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.0.13",
+            "version": "v3.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
