@@ -27,6 +27,7 @@
     "melisplatform/melis-installer": "*",
     "melisplatform/melis-dbdeploy": "*",
     "melisplatform/melis-composerdeploy": "*",
+    "melisplatform/melis-marketplace": "*",
     "melisplatform/melis-core": "*"
   },
   "scripts": {
