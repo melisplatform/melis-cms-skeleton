@@ -21,13 +21,13 @@
     "ocramius/package-versions": "1.2.0",
     "zendframework/zend-mail": "^2.8.0",
     "zendframework/zendframework": "2.5.3",
-    "melisplatform/melis-asset-manager": "^2.3",
-    "melisplatform/melis-installer": "^3.0",
-    "melisplatform/melis-dbdeploy": "^3.0",
-    "melisplatform/melis-composerdeploy": "^3.0",
-    "melisplatform/melis-core": "^3.0",
     "justinrainbow/json-schema": "5.2.1",
-    "ezyang/htmlpurifier": "4.10.0"
+    "ezyang/htmlpurifier": "4.10.0",
+    "melisplatform/melis-asset-manager": "*",
+    "melisplatform/melis-installer": "*",
+    "melisplatform/melis-dbdeploy": "*",
+    "melisplatform/melis-composerdeploy": "*",
+    "melisplatform/melis-core": "*"
   },
   "scripts": {
     "post-update-cmd": "MelisDbDeploy\\DbDeployOnComposerUpdate::postUpdate"
