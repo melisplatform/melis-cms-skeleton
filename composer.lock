@@ -662,16 +662,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "3aec50fb26edb95fc9297aa24fcaf43c7179d3f1"
+                "reference": "755c13490b5b8a700f4d063639f5cf3be3cc660c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/3aec50fb26edb95fc9297aa24fcaf43c7179d3f1",
-                "reference": "3aec50fb26edb95fc9297aa24fcaf43c7179d3f1",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/755c13490b5b8a700f4d063639f5cf3be3cc660c",
+                "reference": "755c13490b5b8a700f4d063639f5cf3be3cc660c",
                 "shasum": ""
             },
             "require": {
@@ -718,7 +718,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-07-02T09:19:44+00:00"
+            "time": "2019-07-05T03:35:56+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -827,16 +827,16 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.1.2",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "efa9cbe644c593358d1709d0c07b90ce7daf53a2"
+                "reference": "f4be4027c73e76c831d8301ba97269d9ac4f83d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/efa9cbe644c593358d1709d0c07b90ce7daf53a2",
-                "reference": "efa9cbe644c593358d1709d0c07b90ce7daf53a2",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/f4be4027c73e76c831d8301ba97269d9ac4f83d4",
+                "reference": "f4be4027c73e76c831d8301ba97269d9ac4f83d4",
                 "shasum": ""
             },
             "require": {
@@ -884,7 +884,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-07-03T08:04:08+00:00"
+            "time": "2019-07-05T03:33:12+00:00"
         },
         {
             "name": "myclabs/deep-copy",
