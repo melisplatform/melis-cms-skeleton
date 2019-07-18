@@ -662,16 +662,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.1.8",
+            "version": "v3.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "576aced7411236729d5016a28ada1693dd9d93bb"
+                "reference": "f3ffa7bc7ae24e8cac48a1f0d0570567d6b84900"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/576aced7411236729d5016a28ada1693dd9d93bb",
-                "reference": "576aced7411236729d5016a28ada1693dd9d93bb",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/f3ffa7bc7ae24e8cac48a1f0d0570567d6b84900",
+                "reference": "f3ffa7bc7ae24e8cac48a1f0d0570567d6b84900",
                 "shasum": ""
             },
             "require": {
@@ -718,7 +718,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-07-08T04:33:35+00:00"
+            "time": "2019-07-18T05:44:49+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
