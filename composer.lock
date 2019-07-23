@@ -770,16 +770,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.1.3",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "b9194b0559664357a95bf29202ee8ef44ab2c42b"
+                "reference": "79fbabc3d4bb6be6b8ba1f6522cac785d3256108"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/b9194b0559664357a95bf29202ee8ef44ab2c42b",
-                "reference": "b9194b0559664357a95bf29202ee8ef44ab2c42b",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/79fbabc3d4bb6be6b8ba1f6522cac785d3256108",
+                "reference": "79fbabc3d4bb6be6b8ba1f6522cac785d3256108",
                 "shasum": ""
             },
             "require": {
@@ -810,9 +810,9 @@
             "authors": [
                 {
                     "name": "Melis Technology",
+                    "role": "Developer",
                     "email": "contact@melistechnology.com",
-                    "homepage": "https://www.melistechnology.com",
-                    "role": "Developer"
+                    "homepage": "https://www.melistechnology.com"
                 }
             ],
             "description": "Melis Platform installer module",
@@ -823,20 +823,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-07-02T09:12:04+00:00"
+            "time": "2019-07-23T03:59:18+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "f4be4027c73e76c831d8301ba97269d9ac4f83d4"
+                "reference": "e59d7c924bce0df75c3150b02dcee1a66dccb00b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/f4be4027c73e76c831d8301ba97269d9ac4f83d4",
-                "reference": "f4be4027c73e76c831d8301ba97269d9ac4f83d4",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/e59d7c924bce0df75c3150b02dcee1a66dccb00b",
+                "reference": "e59d7c924bce0df75c3150b02dcee1a66dccb00b",
                 "shasum": ""
             },
             "require": {
@@ -871,9 +871,9 @@
             "authors": [
                 {
                     "name": "Melis Technology",
+                    "role": "Developer",
                     "email": "contact@melistechnology.com",
-                    "homepage": "https://www.melistechnology.com",
-                    "role": "Developer"
+                    "homepage": "https://www.melistechnology.com"
                 }
             ],
             "description": "Melis Platform Market Place",
@@ -884,7 +884,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-07-05T03:33:12+00:00"
+            "time": "2019-07-23T04:00:52+00:00"
         },
         {
             "name": "myclabs/deep-copy",
