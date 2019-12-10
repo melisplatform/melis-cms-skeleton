@@ -773,16 +773,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.1.8",
+            "version": "v3.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "cf5232c18546ac2c74e57bb5c9207f3296ad4d6e"
+                "reference": "7055cb20a6a69c0b13bf8151d6b03c044f8eb3e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/cf5232c18546ac2c74e57bb5c9207f3296ad4d6e",
-                "reference": "cf5232c18546ac2c74e57bb5c9207f3296ad4d6e",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/7055cb20a6a69c0b13bf8151d6b03c044f8eb3e2",
+                "reference": "7055cb20a6a69c0b13bf8151d6b03c044f8eb3e2",
                 "shasum": ""
             },
             "require": {
@@ -826,20 +826,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-10-21T09:00:30+00:00"
+            "time": "2019-12-10T04:41:35+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.1.10",
+            "version": "v3.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "41c9b2ce016615d4adec28deacf561eef4c22bfb"
+                "reference": "8001d1a0cc61a5205d4cab2ddfd06e05ea649fe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/41c9b2ce016615d4adec28deacf561eef4c22bfb",
-                "reference": "41c9b2ce016615d4adec28deacf561eef4c22bfb",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/8001d1a0cc61a5205d4cab2ddfd06e05ea649fe9",
+                "reference": "8001d1a0cc61a5205d4cab2ddfd06e05ea649fe9",
                 "shasum": ""
             },
             "require": {
@@ -887,7 +887,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-12-09T09:28:21+00:00"
+            "time": "2019-12-10T04:45:02+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3700,6 +3700,7 @@
                 "debug",
                 "zf"
             ],
+            "abandoned": true,
             "time": "2018-04-30T20:10:31+00:00"
         },
         {
